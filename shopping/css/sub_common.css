@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+header {width:100%; height:200px; margin:0 auto; }
+header #top {width:100%; height:50px; margin:0 auto; background-color:#5e7e9b; position:fixed; z-index:1000;}
+header #top > .tbox {width:1260px; height:50px; margin:0 auto; background-color:#5e7e9b;}
+header > #sbox {width:1260px; height:150px; margin:0 auto; background-color:white; }
+header > #sbox > .login1 > ul > li { float:left; position:relative; right:20px; top:-19px; }
+header > #sbox > .login1 > ul > li > a {text-decoration:none; float:left; margin: -60px 5px 50px 30px; font-size: 12px; font-weight:bold; color: black;}
+header > #sbox > .login2 > ul > li {float:left; margin:15px -10px 0 0px; position:relative; right:200px; top:10px;}
+header > #sbox > .login2 > ul > li > a {margin:10px 5px 50px 30px;  font-size:12px; font-weight:bold; color:black; text-decoration:none;}
+header> #sbox >  .icon > a {float:right; width:60px; height:50px; margin:0 30px 0 -10px; padding:10px;}
+header> #sbox >  .icon > a > img {float:right; margin:10px 0 0 10px; width:100%; height:100%; }
+#logo > a > img { margin: 105px 0 0 510px; }
+nav {width:1100px; height:20px; float:left; padding:3px 200px; margin:12.5px 150px; position:fixed;}
+nav > ul > li {float:left; }
+nav > ul > li > a {text-decoration:none; margin:0 30px 0 30px; font-size:15px; font-weight:bold; color:white;}
+nav > ul > li > a:hover {text-decoration:none;}
+nav > .navicon {width:53px; height:53px; float:left; margin: -18px 0 0 -201px;}
+ .navicon > a > img {width:100%; height:100%; }
+
+footer {width:1260px; height:230px; background-color:#eee; margin:0 auto;}
+footer {width:100%;}
+footer #foot {width:1200px; height:50px; margin: 10px auto; background-color:#eee;} 
+footer > #foot > ul {width:750px; height:20px; float:left; margin: 10px 0 0 330px; color:black;}
+footer > #foot > ul > li {  float:left; font-size: 13px; margin: 5px 15px; padding:25px;}
+footer > #foot > ul > li > a {text-decoration:none; color:black;}
+footer #eye {width:1240px; height:90px; margin: 10px auto; background-color:#eee;}
+footer > #eye > ul {width:950px; height:20px; float:left; margin: 13px 0 0 170px; color:#666; padding:10px;}
+footer > #eye > ul > li {float:left; font-size:13px; margin: 5px 10px 0 15px; padding:5px;}
+footer > #eye > ul > li > a {text-decoration:none; color:black;}
+footer #hand {width:1260px; height:65px; margin: 10px auto; background-color:#eee;}
+footer > #hand > ul {width:950px; height:20px; float:left; margin: 5px 0 0px 166px; color:#333; padding:10px;}
+footer > #hand > ul > li {float:left; font-size:11.5px; margin: 5px 10px 0 17.2px; padding:5px;}
+footer > #hand > ul > li > a  {text-decoration:none; color:black;}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

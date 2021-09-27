@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/sub_common.css">
+    <link rel="stylesheet" href="css/sub_main.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        ul,
+        ol,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div class="tbox">
+                <nav>
+                    <div class="navicon">
+                   <a href="main_json.html"> <img src="img/sub/header_icon.png" alt="아이콘"></a>
+                   </div>
+                    <ul>
+                        <li><a href="#">거실/방조명</a></li>
+                        <li><a href="#">식탁/포인트</a></li>
+                        <li><a href="#">무드등</a></li>
+                        <li><a href="#">스탠드</a></li>
+                        <li><a href="#">벽조명</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="sbox">
+            <div id="logo">
+                <a href="main_json.html"><img src="img/sub/logo.png" alt="아뜨레 로고"></a>
+            </div>
+            <div class="icon">
+                <a href="#"><img src="img/sub/search.webp" alt="검색"></a>
+                <a href="#"><img src="img/sub/cart.webp" alt="차트"></a>
+            </div>
+            <div class="login1">
+                <ul>
+                    <li><a href="#">★즐겨찾기</a></li>
+                    <li><a href="#">바로가기</a></li>
+                </ul>
+            </div>
+            <div class="login2">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">주문조회</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div id="sub">
+        <div id="contents">
+            <div id="producttextbox">
+                <span>스탠드 > 단스탠드 >모던 스퀘어 단스탠드(내추럴)</span>
+            </div>
+            <div id="product">
+                <img src="img/sub/product.jpg" alt="무드등1서브">
+            </div>
+            <div id="context">
+                <h4>모던 스퀘어 단스탠드(내츄럴)</h4>
+                <table>
+                    <tr>
+                        <td>상품명</td>
+                        <td>모던 스퀘어 단스탠드(내츄럴)</td>
+                    </tr>
+                    <tr>
+                        <td>판매가</td>
+                        <td>43,000원</td>
+                    </tr>
+                    <tr>
+                        <td><span class="money">소비자가</span></td>
+                        <td><span class="customer">51,200</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="money">적립금</span></td>
+                        <td><span class="money">400원 </span>(1%)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="angry">배송비</span></td>
+                        <td><span class="angry">2,500원 (50,000원 이상 구매 시 무료)</span></td>
+                    </tr>
+                </table>
+                    <h1>램프 추가구매</h1>
+                        <select name="select" id="select">
+                            <option>- [필수] 옵션을 선택해 주세요 -</option>
+                            <option>------------------</option>
+                            <option>램프 추가 안함</option>
+                            <option>LED 램프 전구색(노란빛) (+2,500원)</option>
+                            <option>LED 램프 주광색(하얀빛) (+2,500원)</option>
+                        </select> 
+                <br>
+                <h6>(최소주문수량 1개 이상)</h6>
+                <h3>위 옵션선택 박스를 선택하시면 아래에 상품이 추가됩니다.</h3>
+                <hr>
+                <h4>총 상품금액(수량) : 0 (0개)</h4>
+                <hr>
+                <input type="submit" name="button1" value="바로 구매하기">
+                <input type="submit" name="button2" value="장바구니 담기">
+                <input type="submit" name="button3" value="관심상품등록">
+                <div id="icon">
+                    <div class="box1">
+                        <img src="img/sub/naver_talk.png" alt="네이버">
+                        <span>네이버톡톡으로 문의주세요</span>
+                    </div>
+                    <br>
+                    <div class="box2">
+                        <img src="img/sub/kakao_plus.png" alt="카플">
+                        <span>카카오톡 플러스친구 #ATTRE</span>
+                    </div>
+                </div>
+                <!--대표상품 밑 상세박스-->
+                <div class="minibox">
+                    <div class="miniboxx">
+                        <img src="img/sub/mini1.jpg" alt="미니박스1">
+                    </div>
+                    <div class="miniboxx">
+                        <img src="img/sub/mini2.jpg" alt="미니박스2">
+                    </div>
+                    <div class="miniboxx">
+                        <img src="img/sub/mini3.jpg" alt="미니박스3">
+                    </div>
+                    <div class="miniboxx">
+                        <img src="img/sub/mini4.jpg" alt="미니박스4">
+                    </div>
+                    <div class="miniboxx">
+                        <img src="img/sub/mini5.jpg" alt="미니박스5">
+                    </div>
+                </div>
+                <!--추천박스-->
+                <div class="rbox">
+                    <span class="ri">Today`s recommend</span>
+                    <br>
+                    <div class="rrbox">
+                        <img src="img/sub/rec1.jpg" alt="rb1">
+                        <div class="textbox">
+                            <h6>브라우니 단스탠드 </h6>
+                            <h5>26,500원</h5>
+                        </div>
+                    </div>
+                    <div class="rrbox">
+                        <img src="img/sub/rec2.jpg" alt="rb1">
+                        <div class="textbox">
+                            <h6>LED 문라이트 단스탠드</h6>
+                            <h5>59,900원</h5>
+                        </div>
+                    </div>
+                    <div class="rrbox">
+                        <img src="img/sub/rec3.jpg" alt="rb1">
+                        <div class="textbox">
+                            <h6>LED 올리 단스탠드</h6>
+                            <h5>119,000원</h5>
+                        </div>
+                    </div>
+                    <div class="rrbox">
+                        <img src="img/sub/rec4.jpg" alt="rb1">
+                        <div class="textbox">
+                            <h6>브라우니 단스탠드</h6>
+                            <h5>69,500원</h5>
+                        </div>
+                    </div>
+                    <div class="rrbox">
+                        <img src="img/sub/rec5.jpg" alt="r">
+                        <div class="textbox">
+                            <h6>글로즈 1등 팬던트</h6>
+                            <h5>55,500원</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="detail">
+        <div id="information">
+            <ul>
+                <li><a href="#detail">상품상세정보</a></li>
+                <li><a href="#shipping">상품사용후기</a></li>
+                <li>상품 Q/A</li>
+                <li><a href="#inquiry">관련상품</a></li>
+            </ul>
+        </div>
+        <div id="tbox">
+            <img src="img/sub/detail1.jpg" alt="디테일p1">
+        </div>
+        <!--tbox-->
+        <h3>원목과 패브릭의 완벽한 조화!</h3>
+        <h1>모던스퀘어 단스탠드 내추럴</h1>
+        <div id="tbox2">
+            <img src="img/sub/detail2.jpg" alt="디테일p2">
+        </div>
+        <div id="tbox3">
+            <img src="img/sub/detail3.jpg" alt="디테일p3">
+        </div>
+        <h2>패브릭갓과 고무나무 바디</h2>
+        <p>아이보리톤의 고급스러운 패브릭갓과 내추럴한 고무나무 바디가 만나 <br>
+            더욱 고급스럽고 포근한 느낌을 줍니다.
+        </p>
+        <div id="tbox4">
+            <img src="img/sub/detail4.jpg" alt="디테일p4">
+        </div>
+        <div id="tbox5">
+            <img src="img/sub/detail5.jpg" alt="디테일p5">
+        </div>
+        <div id="tbox6">
+            <h4>전구색(노란빛) 램프 사용</h4>
+            <h5>주광색(하얀빛) 램프 사용</h5>
+            <hr>
+            <h6>모던스퀘어 단스탠드는 램프 색상에 따라 분위기가 달라져요! <br>
+                취향에 맞는 컬러의 램프를 구매하여 사용하세요.
+            </h6>
+        </div>
+        <div id="tbox7">
+            <h1>MODERN</h1>
+            <img src="img/sub/detail6.jpg" alt="디테일6">
+        </div>
+        <div id="tbox8">
+            <img src="img/sub/detail7.jpg" alt="디테일7">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#detail">상품상세정보</a></li>
+                <li><a href="#shipping">상품사용후기</a></li>
+                <li>상품 Q/A</li>
+                <li><a href="#inquiry">관련상품</a></li>
+            </ul>
+        </div>
+        <div class="review_tablebox">
+            <table>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성일</th>
+                    <th>별점</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td><a href="#">조명 맛집! 너무 예뻐요</a></td>
+                    <td>조경문</td>
+                    <td>2021.05.04</td>
+                    <td><img src="img/sub/star.gif" alt="별"></td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td><a href="#">무드등 솔직후기! 제 최애 됐어요ㅠㅠ</a></td>
+                    <td>안유빈</td>
+                    <td>2021.05.01</td>
+                    <td><img src="img/sub/star.gif" alt="별2"></td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td><a href="#">너무 예쁘네요</a></td>
+                    <td>가유경</td>
+                    <td>2021.04.28</td>
+                    <td><img src="img/sub/star.gif" alt="별3"></td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td><a href="#">조명은 아뜨레에서~!</a></td>
+                    <td>이소연</td>
+                    <td>2021.04.20</td>
+                    <td><img src="img/sub/star.gif" alt="별4"></td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td><a href="#">재구매 의사 100! 스탠드 솔직후기입니다ㅎㅎ</a></td>
+                    <td>김정인</td>
+                    <td>2021.04.10</td>
+                    <td><img src="img/sub/star.gif" alt="별5"></td>
+                </tr>
+            </table>
+            <input type="submit" name="button6" value="상품 후기쓰기">
+            <input type="submit" name="button7" value="모두보기">
+        </div>
+        <div id="Q">
+            <ul>
+                <li><a href="#detail">상품상세정보</a></li>
+                <li><a href="#shipping">상품사용후기</a></li>
+                <li>상품 Q/A</li>
+                <li><a href="#inquiry">관련상품</a></li>
+            </ul>
+        </div>
+        <div class="review_tablebox">
+            <table>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>작성일</th>
+                    <th>답변상태
+                    <th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td><a href="#">불이 잘 안들어오는 것 같은데 어떻게 해야되나요?</a></td>
+                    <td>가유경</td>
+                    <td>2021.04.28</td>
+                    <td>답변완료</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td><a href="#">배송이 안와요ㅠㅠ</a></td>
+                    <td>이소연</td>
+                    <td>2021.04.20</td>
+                    <td>답변완료</td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td><a href="#">다른 색상으로 교환해주세요</a></td>
+                    <td>김정인</td>
+                    <td>2021.04.10</td>
+                    <td>답변완료</td>
+                </tr>
+            </table>
+            <input type="submit" name="button6" value="상품 문의하기">
+            <input type="submit" name="button7" value="모두보기">
+        </div>
+        <div id="item">
+            <ul>
+                <li><a href="#detail">상품상세정보</a></li>
+                <li><a href="#shipping">상품사용후기</a></li>
+                <li>상품 Q/A</li>
+                <li><a href="#inquiry">관련상품</a></li>
+            </ul>
+        </div>
+        <div id="relbox">
+            <div class="box">
+                <div class="photo"><img src="img/sub/rel1.jpg" alt="관련상품"></div>
+                <div class="text">
+                    <input type="checkbox" name="mun" value="관련상품1"> <span>
+                        미니 오스틴 스탠드 </span>
+                    <h4>38,000원</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="photo"><img src="img/sub/rel2.jpg" alt="관련상품"></div>
+                <div class="text">
+                    <input type="checkbox" name="mun" value="관련상품1"> <span>
+                        미니 오스틴 스탠드 </span>
+                    <h4>38,000원</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="photo"><img src="img/sub/rel3.jpg" alt="관련상품"></div>
+                <div class="text">
+                    <input type="checkbox" name="mun" value="관련상품1"> <span>
+                        미니 오스틴 스탠드 </span>
+                    <h4>38,000원</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="photo"><img src="img/sub/rel4.jpg" alt="관련상품"></div>
+                <div class="text">
+                    <input type="checkbox" name="mun" value="관련상품1"> <span>
+                        미니 오스틴 스탠드 </span>
+                    <h4>38,000원</h4>
+                </div>
+            </div>
+        </div>
+        <input type="submit" name="button8" value="관련상품 함께 구매하기">
+        <input type="submit" name="button9" value="관련상품 함께 장바구니 담기">
+    </div>
+    <footer>
+        <div id="foot">
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">쇼핑몰이용안내</a></li>
+            </ul>
+        </div>
+        <div id="eye">
+            <ul>
+                <li>고객센터 : T.1577-7423 F.031-944-7424</li>
+                <li>|</li>
+                <li>평일 오전 10:00 ~ 오후 05:00</li>
+                <li>|</li>
+                <li>점심시간 12시 ~ 1시</li>
+                <li>|</li>
+                <li>주말, 공휴일 휴무</li>
+                <li>무통장 입금안내 : 국민은행 522301-01-364671</li>
+                <li>|</li>
+                <li>예금주 : 김경선(와이컴퍼니)</li>
+                <li>|</li>
+                <li>반품주소 : 경기도 파주시 상지석동 512-3번지</li>
+            </ul>
+        </div>
+        <div id="hand">
+            <ul>
+                <li>회사명 : 와이컴퍼니</li>
+                <li>|</li>
+                <li>대표자 : 김경선</li>
+                <li>|</li>
+                <li>사업자 등록번호 : 107-53-01311</li>
+                <li>|</li>
+                <li>통신판매업 신고 제2019-경기파주-2162호 [사업자정보확인]</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

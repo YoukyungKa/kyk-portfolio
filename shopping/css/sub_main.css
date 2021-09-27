@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+#sub {width:1365px; height:1180px; margin:0 auto; background-color:white; padding:30px;}
+#contents {width:100%; height:1140px; background-color:white; position:relative;}
+#producttextbox {width:500px; height:10px; background-color:white; position:absolute;top:35px; left:30px;}
+#producttextbox > span {font-size:14px; font-weight: bold;}
+#product {width:500px; height:580px; background-color:gold; position:absolute; top:70px; left:30px;}
+#product > img {width:100%; height:100%;}
+#context {width:500px; height:850px; position: absolute; right:157px; margin:50px 0 auto;}
+table {width:100%; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+td {padding:5px 15px;}
+button {margin:27px 10px 0 0; cursor:pointer;}
+input[name="button1"] {background-color:black; color:white; border-radius:3px; padding:10px 20px; border:none; margin:30px 0 0 0; width:280px; height:50px;}
+input[name="button1"]:hover {cursor:pointer;}
+input[name="button2"] {height:50px; background-color:white; border:2px solid #ddd;}
+input[name="button2"]:hover {cursor:pointer;}
+input[name="button3"] {height:50px; background-color:white; border:2px solid #ddd;}
+input[name="button3"]:hover {cursor:pointer;}
+input[name="button6"] {background-color: #333333;    float:right; position:relative; top:-10px; left:75px; color:#FFFFFF; height:33px; width:124.67px; box-shadow:4px 4px 4px #eee; margin: 20px 0 0 0; border:none;}
+input[name="button6"]:hover {cursor:pointer;}
+input[name="button7"] {background-color:#FFFFFF; color:#555555; width:120.67px; height:32px; border: 1px solid #ddd; float:right; position:relative; top:-10px; left:325px; margin: 20px 0 0 0; }
+input[name="button7"]:hover {cursor:pointer;}
+input[name="button8"] {background-color:#333333; color:#FFFFFF; margin: 90px 0 0 530px; height: 32px; width:193px; border:none;}
+input[name="button8"]:hover {cursor:pointer;}
+input[name="button9"] {background-color: #333333; color:#FFFFFF; width:193px; height:32px; border:none;}
+input[name="button9"]:hover {cursor:pointer;}
+#context > #icon { width:500px; height:82px; float:left; margin: 90px 0 0 2px; background-color:white;}
+#context  > #icon > .box1 {width:485px; height:40px; float:left; margin:0px 20px 0px 0; background-color:#01C73C;}
+ #context  > #icon > .box1 > img {width:23px; height:25px; vertical-align:middle; margin:0px 0 0 145px;}
+ #context  > #icon > .box1 > span {font-size:14px; margin:0 0 0 10px; margin:11px 0 0 3px; display:inline-block;}
+ #context  > #icon > .box2 {width:485px; height:40px; float:left; margin:3px 20px 0px 0; background-color:#FFD800;}
+ #context > #icon > .box2 > img {width:23px; height:25px; vertical-align:middle; margin:0px 0 0 145px;}
+ #context  > #icon > .box2 > span {font-size:14px; margin: 0 0 0 10px; margin:11px 0 0 3px; display:inline-block; }
+      select {width:290px; height:20px; float:right; margin:5px 0 0 10px; font-size:13px; color:black; border:2px solid gray; padding: 0px 0 0 10px; position:absolute; left:146px; top:258px;}
+      h4 {margin:28px 0 25px 14px; font-size:17px;}
+      h3 {font-size:13px; margin:14px 0 10px 14px; color:red; }
+      h6 {margin: 10px 0 0 14px; font-size:13px;}
+      h1 {font-size:15px; margin:20px 0 0 14px ;}
+      table , tr {width:120%; }
+      hr {width:120%; border-color: white;}
+      .customer {text-decoration:line-through; font-size:13px;}
+      .money {font-size:13px;}
+      .angry {font-size:14px;}
+      .rbox {width:1200px; height:280px; background-color:white; margin:275px 0 0 -600px; border-radius:10px; border:3px solid #eee; position:relative;}
+      .ri {font-size:14px; margin:10px 0 80px 54px; display:inline-block; font-weight:bold; 
+         color:purple; width:150px; height:20px; position:absolute;}
+      .rrbox {width:185px; height:180px; background-color:#ddd; float:left; position:relative; margin:20px 0 0 45px; }
+      .textbox {width:100%; height:40px; background-color:white;}
+      .textbox > h6 {color:black; text-align:center; margin:-2px 0 0 0; }
+      .textbox > h5 {text-align:center; font-size:12px;}
+      .rrbox > img {width:100%; height:100%;  transition:0.3s;}
+      .rrbox > img:hover {opacity:0.6;}
+      .minibox {width:500px; height:100px; float:left; background-color:white; margin: 75px 0 0 -1122.5px;}
+      .miniboxx > img {width:100px; height:100px; padding:2px; margin: 0 0 0 1.7px; }
+      .miniboxx {width:100px; height:100px; float:left;}
+      #detail {width:1450px; height:12420px; margin:0 auto; background-color:white;}
+      #detail > #information ul {width:1200px; height:50px; margin:60px auto 0px; }
+      #detail > #information ul > li:first-of-type {border-bottom:none; background-color: white; border-color:black; }
+      #detail > #information ul > li {width:300px; height:100%; background-color:white; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #ddd; font-size:13px;}
+      ul > li > a {color:#000; text-decoration:none;}
+      #detail > #tbox > img {margin: 0 0 0 300px; width:860px; height:1400px;}
+      #detail > #tbox2 > img {width:860px; height: 1700px; margin:70px 0 0 300px;}
+      #detail > #tbox3 > img { width:860px; margin: 0 0 0 300px;}
+      #detail > #tbox4 > img {width:860px; margin: 0 0 0 300px;}
+      #detail > #tbox5 > img {width:860px; margin:0 0 0 300px;}
+      #detail > #tbox6 {width:798px; height:120px; background-color:#f0e8d7; margin: -25px 0 0 330px;}
+      #detail > #tbox6 > hr {width: 100%; border-color: #ddd;}
+      #detail > #tbox7 > img {width:860px; margin: 0px 0 0 300px;}
+      #detail > #tbox7 > hr {width: 25%; margin: 0 0 0 500px;}
+      #detail > #tbox8 > img {width:860px ;margin: 0 0 0 300px;}
+      #detail > h3 {text-align: center; color:brown; margin:180px 0 0 0; font-size:30px;}
+      #detail > h1  {text-align: center; color:black; font-size:45px; margin:2px 0 0 0;}
+      #detail >  h2 {margin: 7px 0 0 326px; font-size: 35px; font-weight: lighter; }
+      #detail > p {margin: 10px 0 0 326px; font-size: 18px; font-weight: bold; font-weight: lighter; color:#666; }
+      #detail > #tbox6 > h4 {margin: 27px 0 0 115px; font-weight: lighter; position:relative; top:10px;}
+      #detail > #tbox6 > h5 { font-size: 17px; margin: -13px 190px 20px 360px; float:right; position:relative; left:82px; font-weight: lighter;}
+      #detail > #tbox6 > h6 {text-align:center; font-size: 15px; margin: 15px 15px; color:#666;}
+      #detail > #tbox7 > h1 {font-size:90px; color:#c0c0c0; margin:240px 0 10px 10px; text-align:center;}
+      #menu > ul > li:nth-of-type(2) {border-bottom:none; border-color:black;}
+      #menu > ul > li:first-of-type {border:1px solid #ddd; border-bottom:1px solid #ddd;}
+      #menu ul {width:1200px; height:50px; margin:45px auto 0px;}
+      #menu ul > li {width:300px; height:100%; background-color:white; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #ddd; font-size:13px;}
+      #Q ul {width:1200px; height:50px; margin:190px auto 0px;}
+      #Q ul > li {width:300px; height:100%; background-color:white; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #ddd; font-size:13px; }
+      #Q > ul > li:nth-of-type(3) {border-bottom:none; border-color:black;}
+    #detail > #item > ul {width:1200px; height:50px; margin:190px auto 0px;}
+    #detail > #item > ul > li:nth-of-type(4) {border-bottom: none; background-color: white; border-color:black;}
+    #detail > #item > ul > li {width:300px; height:100%; background-color:white; float:left; text-align:center; padding:15px 0 0 0px; border:1px solid #ddd; border-bottom:1px solid #ddd; font-size: 13px;}
+    #relbox {width: 1200px; height:330px; background-color:white; margin: 0 auto;display:flex; justify-content: center; align-items: center; }
+    #relbox > .box {width: 270px; height:300px; background-color: white;  margin:1%;}
+    #relbox > .box > .photo {width:270px; height:300px;}
+    #relbox > .box > .photo > img {width:100%; height:100%;}
+    #relbox > .box > .photo > img:hover {opacity:0.6; cursor:pointer;}
+    .text > span {margin: 5px 0 0 5px; display:inline-block; font-size:14.5px;}
+    #relbox > .box > .text >  input[type="checkbox" ] {margin: 11px 0 0 50px;}
+    #relbox > .box > .text > h4 {margin: 7px 0 0 95px; font-size:13.5px;}
+    .review_tablebox {width: 999px; margin: 40px 0 0 125px;}
+    .review_tablebox table th {width:50px; border-bottom:1px solid #eee; color:#333;}
+    .review_tablebox table td:first-of-type {width:740px; border-bottom:1px solid #eee;}
+    .review_tablebox table td:first-of-type > a {color:#333;}
+    .review_tablebox table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
+    .review_tablebox table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+    .review_tablebox table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
+    .review_tablebox > table {display:inline-block; margin:0px auto; border-top:1px solid #e0e0e0; line-height:50px; width:1200px; font-size:13px; color:#333;}
+
+      
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
