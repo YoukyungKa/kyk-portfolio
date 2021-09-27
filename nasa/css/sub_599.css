@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@media (max-width:599px) {
+
+    .mainwrap {width:100%; height:auto; }
+    /*main1*/
+    .mainwrap1 {width:100%; height:1550px;}
+    .main1 {width:100%; height:1550px; background-color: transparent; margin:0 auto; display:flex; flex-direction: column;
+        justify-content: center; align-items: center; }
+    /*main 왼쪽 사진 박스*/
+    .main > .main1_left {width:95%; height:460px; background-color:transparent; display:flex; flex-direction:column;
+        justify-content: center; }
+    /*왼쪽 사진 박스에서 왼쪽 긴 사진*/
+    .subleft {width:100%; height:460px; background-color:transparent; margin-right:10px; margin-bottom:10px; }
+    .subleft > img {width:100%; height:100%;}
+    .subleft > img:hover {cursor:pointer; opacity:0.7}
+    /*왼쪽 사진 박스에서 오른쪽 사진 두개*/
+    .subright {width:100%; height:460px; background-color:transparent; display:flex; flex-direction:column; }
+    .subright > .subright1 {width:100%; height:230px; background-color:transparent; margin-bottom:10px;}
+    .subright > .subright1 > img {width:100%; height:100%;}
+    .subright > .subright1 > img:hover {cursor:pointer; opacity:0.7}
+    .subright > .subright2 {width:100%; height:230px; background-color:transparent;}
+    .subright > .subright2 > img {width:100%; height:100%; }
+    .subright > .subright2 > img:hover {cursor:pointer; opacity:0.7}
+    /*main 오른쪽 박스*/
+    .main1_right {width:95%; height:460px; background-color:transparent; margin:40px 0 0 0}
+    /*제목*/
+    .main1_right > .title {width:100%; height:100px; background-color:transparent; margin-bottom:20px; }
+    .main1_right > .title > h2 {font-size:17px; color:#ffffff; margin-bottom:10px;}
+    .main1_right > .title > h4 {font-size:40px; font-family:"Play", sans-serif; color:#ffffff;}
+    .main1_right > .title > h3 {width:70px; height:5px;
+    background-color:#00bfe7 ;margin-top:10px;}
+    /*video distribution*/
+    .main1_right > .video {width:100%; height:240px; background-color:transparent; display:flex; }
+    .main1_right > .video > .videobox { width:50%; height:240px; background-color:transparent; }
+    .videoboximg {width:36px; height:36px; border:2px solid #002571; padding:18px; margin-bottom:15px;}
+    .videoboximg:hover {cursor:pointer;}
+    .videoboximg >img {width:100%; height:100%; }
+    .videobox > h3 {font-size:23px; color:#ffffff;font-family:"Play", sans-serif; margin-bottom:15px; }
+    .videobox > p {font-size:15px; color:#adadad; line-height:25px; width:90%}
+     /*부연설명*/
+    .main1_right > .explain {width:100%; height:100px; background-color:transparent;}
+    .explain > p {font-size:15px; color:#adadad; line-height:25px; }
+    /*main2*/
+    .mainwrap2 {width:100%; height:1500px;}
+    .main2 {width:100%; height:1500px; background-color: transparent; margin:0 auto; display:flex; flex-direction: column;
+        justify-content: center; align-items: center; }
+    .main2 > .main1_left {margin-top:20px; }
+    /*main3*/
+    .mainwrap3 {width:100%; height:1600px;}
+    .main3 {width:100%; height:1600px; background-color: transparent; margin:0 auto; display:flex; flex-direction: column;
+        justify-content: center; align-items: center; }
+    /*main4*/
+    .mainwrap4 {width:100%; height:1480px;}
+    .main4 {width:100%; height:1480px; background-color: transparent; margin:0 auto; display:flex; flex-direction: column;
+        justify-content: center; align-items: center; }
+    .main4 > .main1_left {margin-top:20px; }
+    /*main5*/
+    .mainwrap5 {width:100%; height:600px;}
+    .main5 {width:100%; height:600px; background-color:transparent; margin:0 auto;}
+    .main5box {width:100%; height:500px; background-color:transparent; margin:0 auto;}
+    .main5_title > h2 {font-size:30px; color:#ffffff; text-align: center; margin-top:90px;}
+    .input_list {width:100%; height:300px; display:flex; flex-direction: column; align-items: center;}
+    .input_list > input {border:1px solid #adadad ; height:50px;  font-size:16px; padding-left:20px; font-weight:300; background-color:transparent; margin-right: 20px; }
+    textarea { width:84%; height:120px; border:1px solid #adadad; font-size:16px; padding-top:12px; padding-left:20px; font-weight: 300; margin-bottom:14px; background-color:transparent; margin-left:18px; }
+    button {width:90%; background-color:#00bfe7; border:none;font-size:15px; color:#ffffff; font-family:"Play", sans-serif; letter-spacing:2px; padding:14px 34px 12px; margin-left:18px;  }
+    button:hover {cursor:pointer}
+    /*main6*/
+    .mainwrap6 {width:100%; height:400px;}
+    .main6 {width:100%; height:400px; background-color:transparent; margin:0 auto;}
+    .iconbox {width:60%; height:300px; background-color:transparent; margin:0 auto; display:flex; flex-direction: column; flex-wrap:wrap;
+         justify-content: center; align-items: center;}
+    .iconbox > .ibox {width:30%; height:90px; background-color:transparent; margin:1%;}
+    .ibox > img {width:100%; height:100%;}
+    .ibox > img:hover {cursor:pointer}
+
+}

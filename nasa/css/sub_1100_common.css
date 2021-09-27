@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@media (min-width:1100px) {
+#wrap {width:100%; height:auto; background-color:#111111; margin:0 auto;}
+#header_wrap {width:100%; height:100px;background-color: transparent ;border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+header {width:1100px; height:100px; background-color:transparent;  margin:0 auto;   display:flex; justify-content: space-between; }
+.hamburger {display:none;}
+/*슬라이더*/
+#slider {width:100%; height:250px; background-color:transparent;}
+.slider_img {width:100%;height:250px; }
+.slider_img > img {width:100%; height: 100%; }
+/*슬라이더 안에 text*/
+.slider_text {width:640px; height:250px;  margin:0 auto; position:relative; top:-79%; left:10%}
+.slider_text > h2 {color:#FFFFFF; font-size:50px; line-height:70px;font-weight:bold; font-family:"Play", sans-serif;}
+.slider_text > h4 {color:#ffffff; font-size:16px; line-height:40px; font-family:"Play", sans-serif; margin-left:70px; }
+
+
+/*로고*/
+#logo {width:90px; height:65.69px;  margin:15px 0 0 0}
+#logo > a > img {Width:100%; height:100%; }
+#logo > a > img:hover {cursor:pointer;}
+/*nav 감싸는 박스*/
+#navbox {width:550px; height:100px; background-color:transparent; display:flex; align-items: center; justify-content: center;}
+#navbox > nav > ul {display:flex; }
+#navbox > nav > ul > li {padding:10px; display:flex;  font-family:"Play", sans-serif; }
+#navbox > nav > ul > li:hover {cursor:pointer; text-decoration: underline;}
+#navbox > nav > ul > li > a {color:#ffffff; font-size:16px; }
+
+/*footer*/
+.footer_wrap {width:100%; height:550px; background-color:transparent;}
+footer {width:1100px; height:550px; background-color:transparent; margin:0 auto;}
+/*footer 맨위박스*/
+.footerbox1 {width:1100px; height:100px; background-color:transparent; display:flex; justify-content: space-between; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+.footerbox1 > .logo {width:90px; height:65.69px; position:relative; top:15px; }
+.footerbox1 > .logo > img {Width:100%; height:100%; }
+.footerbox1 > .logo > img:hover {cursor:pointer;}
+.footerbox1 > .icon_box {width:200px; height:100px; background-color:transparent; display:flex; justify-content: center; align-items: center;}
+.footerbox1 > .icon_box > a > i {color:#ffffff; padding:10px; }
+.footerbox1 > .icon_box > a {width:30px; height:30px; background-color:rgba(255, 255, 255, 0.12); margin:1%; border-radius: 50%; display:flex; justify-content: center;}
+/*footer 두번째 박스*/
+.footerbox2 {width:1100px; height:350px; background-color:transparent; display:flex; align-items: center; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+/*footer 두번째 박스 중 첫번 째 서브박스*/
+.footerbox2_box1 {width:350px; height:300px; background-color:transparent; margin:1%; }
+.footerbox2_box1 > h3 {color:#ffffff; font-size:20px;  font-family:"Play", sans-serif; margin:30px 0 0 0;}
+.footerbox2_box1 > p {color:#777777; font-size:16px; margin:25px 0 0 0 ; line-height:30px;}
+/*footer 두번째 박스 중 두번 째 서브박스*/
+.footerbox2_box2 {width:350px; height:300px; background-color:transparent; margin:1%; display:flex; justify-content: center;}
+.footerbox2_box2 > .left {width:160px; height:280px; background-color:transparent;}
+.footerbox2_box2 > .left > h3 {font-size:20px; color:#ffffff;  font-family:"Play", sans-serif; margin:30px 0 0 0 }
+.footerbox2_box2 > .left >ul {display:flex; flex-direction:column}
+.footerbox2_box2 > .left > ul > li {color:#777777; font-size:16px; margin:26px 0 0 0 }
+.footerbox2_box2 > .right {width:160px; height:280px; background-color:transparent;}
+.footerbox2_box2 > .right > h3 {font-size:20px; color:#ffffff;  font-family:"Play", sans-serif; margin:30px 0 0 0 }
+.footerbox2_box2 > .right >ul {display:flex; flex-direction:column}
+.footerbox2_box2 > .right > ul > li {color:#777777; font-size:16px; margin:26px 0 0 0 }
+
+/*footer 두번째 박스 중 세번 째 서브박스*/
+.footerbox2_box3 {width:350px; height:300px; background-color:transparent; margin:1%; }
+.footerbox2_box3 > h3 {color:#ffffff; font-size:20px;  font-family:"Play", sans-serif; margin:30px 0 0 0;}
+.footerbox2_box3 > p {color:#777777; font-size:16px; margin:25px 0 0 0 ; line-height:30px;}
+input { height:50px; width:85%; border:1px solid #544E5E; background-color: transparent; font-size:16px; color:#adadad; margin:35px 0 0 0 ; }
+form > button {width:50px; height:52.5px;  background-color:#00bfe7 ; border:none ; position:relative; top:-53.5px; left:248px;  }
+
+/*footer 세번째 박스*/
+.footerbox3 {width:1100px; height:100px; background-color:transparent;}
+.footerbox3 >p {text-align:center; line-height:100px; font-size:16px; color:#777777}
+
+
+
+}

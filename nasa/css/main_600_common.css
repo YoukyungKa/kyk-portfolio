@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+@media (min-width:600px) and (max-width:1099px) {
+
+
+
+    #wrap {width:100%; height:auto; background-color:#111111; margin:0 auto; overflow:hidden;}
+    #header_wrap {width:100%; height:100px;background-color: #111111; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+    header {width:100%; height:100px; background-color: #111111;  margin:0 auto;   display:flex; justify-content: space-between; ; }
+    /*슬라이더*/
+    #slider {width:100%; height:600px; background-color:gold;}
+    .slider_img {width:100%;height:600px; }
+    .slider_img > img {width:100%; height: 100%; }
+    /*슬라이더 안에 text*/
+    .slider_text {width:100%; height:250px;  margin:0 auto; position:relative; top:-79%; }
+    .slider_text > h4 {color:#FFFFFF; font-size:17px; height:30px;  font-family:"Play", sans-serif;  width:50%; margin-left:30px; }
+    .slider_text > h1 {color:#ffffff; font-size:60px; height:180px; font-family:"Play", sans-serif; width:80%; margin-left:30px; }
+    .slider_text > button {  color:#ffffff; font-size:15px; background-color:transparent ;
+        border:none;  border-left: 2px solid #00bfe7 ; border-right:2px solid #00bfe7; font-family:"Play", sans-serif; position:relative; left:30px; }
+    
+    .hamburger {display:none;}
+    /*로고*/
+    #logo {width:90px; height:65.69px;  position:relative; left:30px; top:15px; }
+    #logo > img {Width:100%; height:100%; }
+    #logo > img:hover {cursor:pointer;}
+    /*nav 감싸는 박스*/
+    #navbox {width:550px; height:100px; background-color:transparent; display:flex; align-items: center; justify-content: center; }
+    #navbox > nav > ul {display:flex; }
+    #navbox > nav > ul > li {padding:10px; display:flex;  font-family:"Play", sans-serif; }
+    #navbox > nav > ul > li:hover {cursor:pointer;}
+    #navbox > nav > ul > li > a {color:#ffffff; font-size:16px; }
+    
+    /*footer*/
+    .footer_wrap {width:100%; height:1030px; background-color:transparent;}
+    footer {width:100%; height:1030px; background-color:transparent; margin:0 auto;}
+    /*footer 맨위박스*/
+    .footerbox1 {width:100%; height:100px; background-color:transparent; display:flex; justify-content: space-between; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+    .footerbox1 > .logo {width:90px; height:65.69px; position:relative; top:15px; left:15px; }
+    .footerbox1 > .logo > img {Width:100%; height:100%; }
+    .footerbox1 > .logo > img:hover {cursor:pointer;}
+    .footerbox1 > .icon_box {width:200px; height:100px; background-color:transparent; display:flex; justify-content: center; align-items: center;}
+    .footerbox1 > .icon_box > a > i {color:#ffffff; padding:10px; }
+    .footerbox1 > .icon_box > a {width:30px; height:30px; background-color:rgba(255, 255, 255, 0.12); margin:1%; border-radius: 50%; display:flex; justify-content: center;}
+    /*footer 두번째 박스*/
+    .footerbox2 {width:100%; height:820px; background-color:transparent; display:flex; flex-direction:column; align-items: center; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+    /*footer 두번째 박스 중 첫번 째 서브박스*/
+    .footerbox2_box1 {width:98%; height:200px; background-color:transparent; margin:1%; }
+    .footerbox2_box1 > h3 {color:#ffffff; font-size:20px;  font-family:"Play", sans-serif; margin:30px 0 0 0; padding:15px; }
+    .footerbox2_box1 > p {color:#777777; font-size:16px; margin:25px 0 0 0 ; line-height:30px; width:90%; margin: 0 0 0 15px;  }
+    /*footer 두번째 박스 중 두번 째 서브박스*/
+    .footerbox2_box2 {width:98%; height:300px; background-color:transparent; margin:1%; display:flex; justify-content: center;}
+    .footerbox2_box2 > .left {width:50%; height:280px; background-color:transparent; margin:10px; }
+    .footerbox2_box2 > .left > h3 {font-size:20px; color:#ffffff;  font-family:"Play", sans-serif; margin:30px 0 0 0 }
+    .footerbox2_box2 > .left >ul {display:flex; flex-direction:column}
+    .footerbox2_box2 > .left > ul > li {color:#777777; font-size:16px; margin:26px 0 0 0 }
+    .footerbox2_box2 > .right {width:50%; height:280px; background-color:transparent; margin:10px; }
+    .footerbox2_box2 > .right > h3 {font-size:20px; color:#ffffff;  font-family:"Play", sans-serif; margin:30px 0 0 0; }
+    .footerbox2_box2 > .right >ul {display:flex; flex-direction:column}
+    .footerbox2_box2 > .right > ul > li {color:#777777; font-size:16px; margin:26px 0 0 0 }
+    
+    /*footer 두번째 박스 중 세번 째 서브박스*/
+    .footerbox2_box3 {width:98%; height:300px; background-color:transparent; margin:1%; }
+    .footerbox2_box3 > h3 {color:#ffffff; font-size:20px;  font-family:"Play", sans-serif; margin:30px 0 0 0; padding:15px; }
+    .footerbox2_box3 > p {color:#777777; font-size:16px; margin:25px 0 0 0 ; line-height:30px; width:90%; margin: 0 0 0 15px; }
+    input { height:50px; width:84%; border:1px solid #544E5E; background-color: transparent; font-size:16px; color:#adadad; margin:35px 0 0 15px ; }
+    form > button {width:50px; height:52.5px;  background-color:#00bfe7 ; border:none ;position:relative; left:374px; bottom:54px;   }
+    form > button > i {font-size:20px; color:#ffffff; text-align:center; border:none; }
+    form > button > i:hover {cursor:pointer}
+    /*footer 세번째 박스*/
+    .footerbox3 {width:100%; height:100px; background-color:transparent;}
+    .footerbox3 >p {text-align:center; line-height:100px; font-size:13px; color:#777777; padding:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

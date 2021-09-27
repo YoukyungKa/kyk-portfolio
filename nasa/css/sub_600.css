@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@media (min-width:600px) and (max-width:1099px) {
+
+
+    .mainwrap {width:100%; height:auto; }
+    /*main1*/
+    .mainwrap1 {width:100%; height:1000px;}
+    .main1 {width:100%; height:1000px; background-color: transparent; margin:0 auto; display:flex; justify-content: center; align-items: center; flex-direction:column;}
+    /*main 왼쪽 사진 박스*/
+    .main1_left {width: 100%; height:460px; background-color:transparent; display:flex; justify-content: center; margin-left:40px; }
+    /*왼쪽 사진 박스에서 왼쪽 긴 사진*/
+    .subleft {width:100%; height:460px; background-color:transparent; margin-right:10px;}
+    .subleft > img {width:100%; height:100%;}
+    /*왼쪽 사진 박스에서 오른쪽 사진 두개*/
+    .subright {width:100%; height:460px; background-color:transparent; display:flex; flex-direction:column; padding-right:40px; }
+    .subright > .subright1 {width:100%; height:230px; background-color:transparent; margin-bottom:10px;}
+    .subright > .subright1 > img {width:100%; height:100%;}
+    .subright > .subright2 {width:100%; height:220px; background-color:transparent;}
+    .subright > .subright2 > img {width:100%; height:100%; }
+    /*main 오른쪽 박스*/
+    .main1_right {width:95%; height:430px; background-color:transparent; margin-top:30px;}
+    /*제목*/
+    .main1_right > .title {width:100%; height:100px; background-color:transparent; margin-bottom:20px; }
+    .main1_right > .title > h2 {font-size:17px; color:#ffffff; margin-bottom:10px;}
+    .main1_right > .title > h4 {font-size:40px; font-family:"Play", sans-serif; color:#ffffff;}
+    .main1_right > .title > h3 {width:70px; height:5px;
+    background-color:#00bfe7 ;margin-top:10px;}
+    /*video distribution*/
+    .main1_right > .video {width:100%; height:240px; background-color:transparent; display:flex; }
+    .main1_right > .video > .videobox { width:50%; height:240px; background-color:transparent; }
+    .videoboximg {width:36px; height:36px; border:2px solid #002571; padding:18px; margin-bottom:15px;}
+    .videoboximg:hover {cursor:pointer;}
+    .videoboximg >img {width:100%; height:100%; }
+    .videobox > h3 {font-size:23px; color:#ffffff;font-family:"Play", sans-serif; margin-bottom:15px; }
+    .videobox > p {font-size:15px; color:#adadad; line-height:25px;}
+     /*부연설명*/
+    .main1_right > .explain {width:90%; margin:-30px 0 0 0}
+    .explain > p {font-size:15px; color:#adadad; line-height:25px;  }
+    /*main2*/
+    .mainwrap2 {width:100%; height:1080px;  }
+    .main2 {width:100%; height:1080px; background-color: transparent; margin:0 auto; display:flex; justify-content: center; align-items: center; flex-direction:column;}
+    
+    /*main3*/
+    .mainwrap3 {width:100%; height:1000px;}
+    .main3 {width:100%; height:1000px; background-color:transparent; margin:0 auto;display:flex; justify-content: center; align-items: center; flex-direction: column;}
+
+    /*main4*/
+    .mainwrap4 {width:100%; height:1090px;}
+    .main4 {width:100%; height:1090px; background-color:transparent; margin: 0 auto; display:flex; justify-content: center; align-items: center; flex-direction:column}
+    
+    /*main5*/
+    .mainwrap5 {width:100%; height:420px;}
+    .main5 {width:100%; height:420px; background-color:transparent; margin:0 auto;}
+    .main5box {width:98%; height:500px; background-color:transparent;  margin:0 auto;}
+    .main5_title > h2 {font-size:30px; color:#ffffff; text-align: center;}
+    .input_list {width:98%; display:flex; flex-direction: row; }
+    .input_list > input {border:1px solid #adadad ; height:50px;  font-size:16px; font-weight:300; background-color:transparent;  margin-bottom:20px; }
+    textarea {height:120px; width:95.5%;  border:1px solid #adadad; font-size:16px; padding-top:12px;  font-weight: 300; margin-bottom:14px; background-color:transparent; margin-left:15px;}
+    button {width:96.1%; background-color:#00bfe7; border:none;font-size:15px; color:#ffffff; font-family:"Play", sans-serif; letter-spacing:2px; padding:14px 34px 12px;  margin-left:15px; }
+    button:hover {cursor:pointer}
+    /*main6*/
+    .mainwrap6 {width:100%; height:400px;}
+    .main6 {width:100%; height:400px; background-color:transparent; margin:0 auto;}
+    .iconbox {width:70%; height:300px; background-color:transparent; margin:0 auto; display:flex; justify-content: space-around; align-items: center; flex-direction:column; flex-wrap:wrap;}
+    .iconbox > .ibox {width:90px; height:90px; background-color:transparent; margin:1%;}
+    .ibox > img {width:100%; height:100%;}
+    .ibox > img:hover {cursor:pointer}
+  
+}

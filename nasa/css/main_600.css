@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+@media (min-width:600px) and (max-width:1099px) {
+
+    .mainwrap {width:100%; height:auto; }
+
+    /*메인1:our services what we do?*/
+    .main1_wrap {width:100%; height:1000px; background-color:transparent;}
+    .main1 {width:100%; height:1000px; background-color:transparent; margin:0 auto; display:flex;   flex-direction:column;
+         align-items: center;}
+    /*메인1 왼쪽 박스*/
+    .mainbox1 {width:100%; height:300px; background-color:transparent; margin:50px; }
+    .mainbox1 > h4 {color:#ffffff; font-size:17px; padding:30px; height:3px;}
+    .mainbox1 > h2 {color:#ffffff; font-size:40px; margin-left:30px;   }
+    .mainbox1 > h3 {width:70px; height:5px; background-color:#00bfe7; margin-left:30px; margin-top:10px; }
+    .mainbox1 > p {color:#ADADAD; font-size:15px; line-height:25px; margin:35px 0 0 0; width:90%; padding:10px; margin-left:20px; }
+    .mainbox1 > button {background-color: transparent; border:none; border-left:1px solid #00bfe7; border-right:1px solid #00bfe7; color:#ffffff; font-size:15px;  width:200px; margin:30px 0 0 0; font-weight:bold; margin-left:30px; }
+    .mainbox1 > button:hover {cursor:pointer; text-decoration:underline;}
+    /*메인1 오른쪽 박스*/
+    .mainbox2 {width:100%; height:550px; background-color: transparent; display:flex; flex-wrap:wrap; justify-content: flex-start;}
+    .mainbox2 > .box {width:40%; height:250px; background-color:transparent; margin:1%; margin-left:25px; }
+    /*박스 안에 아이콘*/
+    .boxicon {width:36px; height:36px; border:2px solid #00bfe7; padding:18px;  }
+    .boxicon:hover {cursor:pointer; }
+    .boxicon > img {width:100%; height:100%; }
+    .mainbox2 > .box > h3 {color:#ffffff; font-size:23px;  font-family:"Play", sans-serif; height:40px; margin:10px 0 0 0}
+    .mainbox2 > .box > p {font-size:15px; color: #adadad; line-height:25px;}
+    
+    /*메인2*/
+    
+    .main2_wrap {width:100%; height:520px; background-color:transparent; display:flex; justify-content: center;}
+    .main2_leftbox {width:70%; height:500px; background-color:transparent; display:flex; flex-wrap:wrap; justify-content: space-between; }
+    .leftbox1 {width:49.5%; height:250px; background-color:transparent; }
+    .leftbox1:hover {opacity: 0.8;}
+    .leftbox1 > img {width:100%; height: 100%; }
+    .leftbox2 {width:50%; height:250px; background-color:transparent; display:flex; }
+    .leftbox2 > .img2-1 {width: 50%; height:250px;  }
+    .leftbox2 > .img2-1 > img {width:100%; height:100%;}
+    .leftbox2 > .img2-1:hover {opacity:0.8}
+    .leftbox2 > .img2-2 {width:50%; height:250px;}
+    .leftbox2 > .img2-2:hover {opacity:0.8}
+    .leftbox2 > .img2-2 > img {Width:100%; height:100%;}
+    .leftbox3 {width:49.5%; height:250px; background-color:transparent; display:flex;  margin:5px 0 0 0}
+    .leftbox3 > .img3-1 {width: 50%; height:250px; }
+    .leftbox3 > .img3-1:hover {opacity:0.8}
+    .leftbox3 > .img3-1 > img {width:100%; height:100%;}
+    .leftbox3 > .img3-2 {width:50%; height:250px;}
+    .leftbox3 > .img3-2:hover {opacity:0.8}
+    .leftbox3 > .img3-2 > img {Width:100%; height:100%;}
+    .leftbox4 {width:50%; height:250px; background-color:transparent; margin:5px 0 0 0}
+    .leftbox4:hover {opacity:0.8}
+    .leftbox4 > img {width:100%; height:100%; }
+    .leftbox1, .leftbox2 , .leftbox3 , .leftbox4:hover {cursor:pointer;}
+    /*오른쪽 박스 사진 한개*/
+    .main2_rightbox {width:30%; height:505px; background-color:transparent; margin: 0 0 0 10px; }
+    .main2_rightbox:hover {cursor:pointer; opacity:0.8}
+    .main2_rightbox  > img {width:100%; height:100%;}
+    /*메인3*/
+    .main3_wrap {width:100%; height:720px; background-color:transparent;}
+    .main3 {width:100%; height:720px; background-color:transparent; margin:0 auto; display:flex; flex-direction:column; flex-wrap:wrap; justify-content: center; align-items: center;}
+    /*마름모1*/
+    .square1 {height: 250px; width: 47%; background: #05163b;   text-align: center; position: relative; z-index: 1; margin-bottom:20px;  display:flex; flex-direction:column; justify-content: center;}
+    .square1 > h1 {color:#ffffff;font-size:60px;  font-family:"Play", sans-serif}
+    .square1 > p {color:#ffffff;  font-size:16px;  }
+    .square1 > p:hover {text-decoration:underline; cursor:pointer}
+    /*마름모2*/
+    .square2 {height: 250px; width: 47%; background: #05163b;   text-align: center; position: relative; z-index: 1; display:flex; flex-direction:column; justify-content: center;}
+    .square2 > h1 {color:#ffffff;font-size:60px;  font-family:"Play", sans-serif}
+    .square2 > p {color:#ffffff;  font-size:16px;  }
+    .square2 > p:hover {text-decoration:underline; cursor:pointer}
+    /*마름모3*/
+    .square3 {height: 250px; width: 47%; background: #05163b;   text-align: center; position: relative; z-index: 1;  margin-bottom:20px; display:flex; flex-direction:column; justify-content: center;}
+    .square3 > h1 {color:#ffffff;font-size:60px;  font-family:"Play", sans-serif}
+    .square3 > p {color:#ffffff;  font-size:16px;  }
+    .square3 > p:hover {text-decoration:underline; cursor:pointer}
+    
+    /*마름모4*/
+   .square4 {height: 250px; width: 47%; background: #05163b;   text-align: center; position: relative; z-index: 1; display:flex; flex-direction:column; justify-content: center; }
+  .square4 > h1 {color:#ffffff;font-size:60px;  font-family:"Play", sans-serif}
+  .square4 > p {color:#ffffff;  font-size:16px;  }
+  .square4 > p:hover {text-decoration:underline; cursor:pointer}
+    /*메인4*/
+    .main4_wrap {width:100%; height:1100px; background-image: url("https://jominju.netlify.app/html_3/img/s4_bg.jpg"); background-attachment: fixed; background-size:cover; }
+    .main4 {width:100%; height:1100px; background-color:transparent; margin:0 auto; display:flex; flex-wrap:wrap; flex-direction: column;}
+    /*메인4 타이틀 박스*/
+    .main4_title {width:100%; height:120px; background-color:transparent; position:relative; top:90px; }
+    .main4_title > h4 {color:#ffffff; font-size:17px; height:30px; margin-left:20px;}
+    .main4_title > h2 {color:#ffffff; font-size:40px; height:60px; font-family:"Play", sans-serif;
+    margin-left:20px;}
+    .main4_title > h3 {background-color:#00bfe7; width:75px; height:5px; margin-left:20px; }
+    /*메인4 내용 박스*/
+    .main4_box {width:100%; height:550px; background-color:transparent; display:flex; flex-wrap:wrap; justify-content: center; margin-top:100px; }
+    .main4_conbox1 {width:46%; height:390px; background-color:peru; margin:10px; position:relative; }
+    .main4_conbox1 > img {width:100%; height:100%; }
+    .main4_conbox2 {width:46%; height:390px; background-color:peru; margin:10px; position:relative; }
+    .main4_conbox2 > img {width:100%; height:100%}
+    .main4_conbox3 {width:46%; height:390px; background-color:peru; margin:10px;  position:relative;  }
+    .main4_conbox3 > img {width:100%; height:100%}
+    .main4_conbox4 {width:46%; height:390px; background-color:peru; margin:10px;  position:relative;  }
+    .main4_conbox4 > img {width:100%; height:100%}
+    /*박스 안 인물 이름*/
+    .info {opacity:0; z-index: 20; position: absolute; left: -100%;; top:auto; bottom: 0; right: 0; background: rgba(0,0,0,0.7); color: #fff;   padding: 13px;   transition: all 0.35s ease-in-out; height:50px; }
+    .info h3 {font-size:20px; color:#ffffff; height:30px; font-family:"Play", sans-serif; text-align:center;}
+     .info p {font-size:13px; color:#ffffff; text-align:center; }
+     .info { opacity:0.8; left: 0; }
+     .info h3:hover {cursor:pointer; text-decoration:underline;}
+     .info p:hover {cursor:pointer;}
+    /*메인5*/
+    .main5_wrap {width:100%; height:670px; background-color:transparent;}
+    .main5 {width:100%; height:670px; background-color:transparent; margin:0 auto; display:flex; flex-wrap:wrap;  justify-content: center; }
+    /*메인5 타이틀 박스*/
+    .main5_title {width:100%; height:120px; background-color:transparent; position:relative; top:90px; }
+    .main5_title > h4 {color:#ffffff; font-size:17px; height:30px; text-align:center;}
+    .main5_title > h2 {color:#ffffff; font-size:40px; height:60px; font-family:"Play", sans-serif; text-align:center;}
+    .main5_title > h3 {background-color:#00bfe7; width:75px; height:5px; position:relative; left: 370px; }
+    /*메인5 내용박스*/
+    .main5_conbox {width:100%; height:340px; background-color:transparent; display:flex; justify-content: center;}
+    .main5_box {width:95%; height:330px; background-color:transparent; margin:1%; border:1px solid #282828;}
+    .main5_box > h3 {color:#ffffff; font-size:25px;  font-family:"Play", sans-serif; padding:20px;
+    } 
+    .titlebox1 {width:100%; height:40px; background-color:transparent; }
+    .titlebox1 > ul {display:flex;padding:10px; line-height: 5px; }
+    .titlebox1 > ul > li {padding:10px; font-size:12px; color:#777777}
+    .titlebox1 > ul >li:hover {cursor:pointer;}
+    .main5_box > p {color:#777777; font-size:16px;line-height:29px; padding:20px; }
+    .main5_box > .ibox {width:30px; height:30px; background-color:#ffffff}
+    .main5_box > h5 {color:#00bfe7; font-size:12px; font-weight: bold; margin: 0 0 0 17px; }
+    .main5_box > h5:hover {cursor:pointer; text-decoration:underline;}
+
+    .main5_box:nth-child(2) {display:none}
+    .main5_box:last-child {display:none}
+    /*메인6*/
+    .main6_wrap {width:100%; height:500px; background-image:url(https://jominju.netlify.app/html_3/img/s6_img.jpg)}
+    .main6 {width:100%; height:500px; background-color:transparent; margin: 0 auto;}
+    .main6 > .textbox {width:100%; height: 250px; background-color:transparent; position:relative; top:155px;}
+    .main6 > .textbox > h2 {color:#ffffff; font-size:40px; font-family:"Play", sans-serif; height:130px; margin-left:20px;}
+    .main6 > .textbox >h4 {color:#DDDDDD; font-size:15px; height:50px; margin-left:20px;}
+    .main6 > .textbox >button {width:250px; height:47px; background-color:#00bfe7; border:none; color:#ffffff; font-size:15px; font-weight: bold; letter-spacing: 1px; margin-left:20px;}
+    .main6 > .textbox >button:hover {cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
