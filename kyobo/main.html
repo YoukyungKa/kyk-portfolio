@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>교보문고</title>
+
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5afcbb24fd.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+  <script src="js/header.js"></script>
+  <script src="js/story_k.js"></script>
+  <script src="js/fire1.js"></script>
+  <script src="js/bestseller.js"></script>
+  <script src="js/recentrec.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/book.js"></script>
+  <script src="js/only.js"></script>
+  <script src="js/rising.js"></script>
+  <style>
+
+    * {box-sizing:border-box; margin:0;}
+    ul,ol,li {list-style:none;}
+    a {text-decoration: none;}
+
+    #wrap {width: auto; height: auto; position: relative;} 
+
+  </style>
+</head>
+<body>
+
+  <div id="wrap">
+
+
+    <header>
+
+      <!--맨위 배너-->
+      <div id="header_banner">                
+        <span></span>
+        <img src="img/header_banner.jpg" alt="banner">
+        <span><i class="fas fa-times" id="header_remove_banner"></i></span> 
+      </div>
+
+      <!--네비1-->
+      <div class="tnav">
+        <div class="nav1">
+          <div class="nbox2">
+            <ul>
+              <li><a href="#">매장안내<i class="fas fa-chevron-down"></i></a>
+              <ul id="header_store">
+               <li><span>서울</span>
+                 <ul>
+                  <li><a href="#"></a>광화문점</li>
+                  <li><a href="#"></a>강남점</li>
+                  <li><a href="#"></a>동대문 바로드림센터</li>
+                  <li><a href="#"></a>다큐브시티 바로드림센터</li>
+                  <li><a href="#"></a>목동점</li>
+                  <li><a href="#"></a>서울대 교내서점</li>
+                  <li><a href="#"></a>수유 바로드림센터</li>
+                  <li><a href="#"></a>영등포점</li>
+                  <li><a href="#"></a>은평 바로드림센터</li>
+                  <li><a href="#"></a>이화여대 교내서점</li>
+
+                </ul>
+              </li>
+
+              <li><span>수도권</span>
+                <ul>
+
+                <li><a href="#"></a>광교점</li>
+                <li><a href="#"></a>광교 월드스퀘어센터</li>
+                <li><a href="#"></a>부천점</li>
+                <li><a href="#"></a>분당점</li>
+                <li><a href="#"></a>성균관대 교내서점</li>
+                <li><a href="#"></a>인천점</li>
+
+                </ul>
+              </li>
+              <li><span>지방</span>
+
+                <ul>
+                  <li><a href="#"></a>광주상무 센터</li>
+                  <li><a href="#"></a>대구점</li>
+                  <li><a href="#"></a>대전점</li>
+                  <li><a href="#"></a>반월당 바로드림센터</li>
+                  <li><a href="#"></a>부산점</li>
+                  <li><a href="#"></a>세종 바로드림센터</li>
+                  <li><a href="#"></a>센텀시티점</li>
+                  <li><a href="#"></a>울산점</li>
+                  <li><a href="#"></a>전북대 교내서점</li>
+                  <li><a href="#"></a>창원점</li>
+
+                </ul>
+
+             </li>
+
+            </ul>
+            </li>
+
+            <li id="bb"><a href="#">회원혜택<i class="fas fa-chevron-down"></i></a>
+              <ul id="header_benefit">
+                <li><a href="#"></a>교보북클럽</li>
+                <li><a href="#"></a>등급별 회원혜택 </li>
+                <li><a href="#"></a>신규회원 혜택</li>
+                <li><a href="#"></a>제휴포인트/상품권</li>
+                <li><a href="#"></a>참좋은교보문고</li>
+
+              </ul>
+
+            </li>
+
+            </ul>
+            </div>
+
+            <div class="nbox3">
+             <ul id="header_side">   
+              <li>로그인</li>
+              <li>회원가입</li>
+              <li>출석체크</li>
+              <li>고객센터</li>
+              <li>주문배송</li>
+
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!--로고-->
+      <div class="boxx">
+
+        
+        <div id="logo">
+          
+         <img src="img/logo.png" alt="로고">
+        </div>
+       
+
+        <!--헤더 검색창-->
+        <div class="search">
+          <input type="search" placeholder="우리아이 이제 5개국어 가능합니다.">
+          <img src="img/search.gif" alt="검색" class="s">
+        </div>
+
+
+        <!--헤더 광고박스-->
+        <div class="adbox">
+         <ul>
+         <li><a href="sub.html" target="headad"><img src="img/header_ad.jpg"  alt="1"></a></li>
+         <li><a href="sub.html" target="headad"><img src="img/header_ad2.jpg" alt="2"></a></li>
+         <li><a href="sub.html" target="headad"><img src="img/header_ad3.jpg" alt="3"></a></li>
+         <li><a href="sub.html" target="headad"><img src="img/header_ad4.jpg" alt="4"></a></li>   
+         </ul>
+         <div class="prev">&lt;</div>
+         <div class="next">&gt;</div>
+         <span class="count">1 / 4</span>
+       </div>
+
+     </div>
+
+
+
+
+     <!--네비2-->
+     <div class="tnav2"> <!--전체 100%-->
+      <div class="nav2"> <!--1150px 로 감쌈-->
+        <div class="nav2_1"> <!--국내도서~플러스 아이콘 까지 nav2_2랑 dispaly:flex해줌-->
+           <ul id="header_nav_main"> 
+
+              <div class="ibox">
+              <li class="header_nav_first"><i class="fas fa-bars"></i>
+                <ul class="header_nav_hamburger">
+
+                  <li><a href="#">국내도서</a></li>
+                  <li><a href="#">외국도서</a></li>
+                  <li><a href="#">eBook</a></li>
+                  <li><a href="#">코믹스</a></li>
+                  <li><a href="#">sam</a></li>
+                  <li><a href="#">기프트</a></li>
+                  <li><a href="#">음반</a></li>
+                  <li><a href="#">중고장터</a></li>
+                  <li><a href="#">ONLY 교보문고</a></li>
+              
+              
+                </ul>
+              </li>
+            </div>
+
+
+              <li><a href="sub.html">국내도서</a></li>
+
+              <li><a href="sub.html">외국도서</a></li>
+
+              <li class="header_nav_main_sub"><a href="sub.html">eBook<i class="fas fa-chevron-down"></i></a>
+                  <ul class="header_nav_main_submenu">
+                    <li><a href="#">일반도서</a></li>
+                    <li><a href="#">로맨스/BL</a></li>
+                    <li><a href="#">판타지/무협</a></li>
+                    <li><a href="#">sam</a></li>
+                    <li><a href="#">코믹스</a></li>
+                    <li><a href="#">오디오북</a></li>
+                    <li><a href="#">학술논문</a></li>
+
+                  </ul>
+                
+             </li>
+
+             <li><a href="sub.html">웹소설</a></li>
+             <li class="header_nav_main_sub"><a href="sub.html">기프트<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_nav_main_submenu">
+                    <li><a href="#">디자인문구</a></li>
+                    <li><a href="#">디지털</a></li>
+                    <li><a href="#">키친/푸드</a></li>
+                    <li><a href="#">오피스</a></li>
+                    <li><a href="#">고급필기구</a></li>
+
+                </ul>
+            </li>
+
+            <li class="header_nav_main_sub"><a href="sub.html">음반<i class="fas fa-chevron-down"></i></a>
+                  
+             <ul class="header_nav_main_submenu">
+            
+                <li><a href="#">음반</a></li>
+                <li><a href="#">DVD</a></li>
+                <li><a href="#">블루레이</a></li>
+            
+            </ul>
+            </li>
+
+            <li><a href="sub.html">중고장터</a></li>
+
+            <li class="header_nav_main_sub"><a href="sub.html"><i class="far fa-plus-square"></i></a></li>
+
+
+            <li>메뉴 전체보기</li>
+            <li>서비스 전체보기<i class="fas fa-chevron-right"></i></li>
+
+           </ul>
+
+
+
+       </div>
+
+
+       <div class="nav2_2">
+        <ul>  
+          <li><a href="sub.html">베스트</a></li>
+          <li><a href="sub.html">신상품</a></li>
+          <li><a href="sub.html">이벤트</a></li>
+          <li><a href="sub.html">사은품</a></li>
+
+        </ul>  
+      </div>
+    </div>
+  </div>
+</header>
+  <!--네비2 끝-->
+  <div id="slider">
+    <div class="contents_box">
+        <div id="slider_main">
+             <div class="slider_main_1box">
+                 <img src="img/slider1.jpg" alt="slideImage">
+             </div>
+             <div class="slider_main_1box">
+                 <img src="img/slider2.jpg" alt="slideImage">
+             </div>
+             <div class="slider_main_1box">
+                 <img src="img/slider3.jpg" alt="slideImage">
+             </div>
+             <div class="slider_main_3box">
+                 <img src="img/slider4_1.jpg" alt="slideImage">
+                 <img src="img/slider4_2.jpg" alt="slideImage">
+                 <img src="img/slider4_3.jpg" alt="slideImage">
+             </div>                    
+            <div class="slider_main_1box">
+                 <img src="img/slider5.jpg" alt="slideImage">
+             </div>
+            <div class="slider_main_3box">
+                 <img src="img/slider6_1.jpg" alt="slideImage">
+                 <img src="img/slider6_2.jpg" alt="slideImage">
+                 <img src="img/slider6_3.jpg" alt="slideImage">
+             </div>
+        </div>
+        <div id="slider_side">
+            <div id="slider_side_top">
+                <h5>출판사 북캐스트</h5>
+                <span>거의 모든, 책 이야기</span>
+                <div id="slider_side_img">
+                  <img src="img/story.jpg" alt="storyImage">
+                </div>
+                <p>한가함을 참지 못하는 습관</p>
+                <p>바쁨 중독에서 벗어나는 방법</p>
+            </div>
+            <div id="slider_side_bot">
+                <ul>
+                    <li><a href="#">외국인 질색하는 한국기업문화</a></li>
+                    <li><a href="#">아내의 눈물을 멈추게 만든</a></li>
+                    <li><a href="#">인간의 지능은 어디로 갈 것인가</a></li>
+                    <li><a href="#">미니멀 라이프가 어려워요?</a></li>
+                </ul>
+            </div>
+        </div>            
+        <div id="slider_btn">
+            <ul>
+                <li class="slider_btn_hover">요즘 이 책</li>
+                <li>핫이슈</li>
+                <li>새로나온 책</li>
+                <li>기획/테마</li>
+                <li>eBook</li>
+                <li>한정특가</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--슬라이드 끝-->
+
+
+<!--메인시작-->
+
+<main>
+
+
+  <!--오늘의 책-->
+  <div class="mainwrap">
+    <div class="todaywrap">
+
+     <div class="title">
+      <h2>오늘의 책 </h2>
+      <ul>
+        <li>국내도서</li>
+        <li>eBook</li>
+        <li>sam</li>
+      </ul>
+    </div>
+   
+
+    
+    
+ 
+   <!--세트-->
+    <!--오늘의 책 좌측 자바스크립트내용-->
+    <div class="today">
+     <div class="left">
+       <div class="conveyor">
+         <ul>
+        <li class="conveyor-item1"><img src="img/today_bookbox3-1.jpg" alt="bookboxImage"></li>
+        <li class="conveyor-item2"><img src="img/today_bookbox3-2.jpg" alt="bookboxImage"></li>
+        <li class="conveyor-item3"><img src="img/today_bookbox3-3.jpg" alt="bookboxImage"></li>
+          </ul>
+           
+      </div>
+      </div>
+
+    
+
+   <!--오늘의 책 우측 자바스크립트 내용-->
+
+     <div class="right_wrap">
+     <ul class="right">
+       <li><img src="img/tdright_1.jpg" alt="1img"></li>
+
+     <li> <img src="img/tdright_2.png" alt="1img"></li>
+
+    <li><img src="img/tdright_3.png" alt="1img"></li>
+
+    </ul>
+      
+    <span class="prev">&lt;</span>
+    <span class="next">&gt;</span>
+
+
+    </div>
+   
+    </div>
+  <!--여기까지-->
+
+
+
+
+<!--세트-->
+    <!--오늘의 책 좌측 자바스크립트내용2-->
+    <div class="todayjs2">
+      <div class="left">
+        <div class="conveyor">
+          <ul>
+         <li class="conveyor-item1"><img src="img/today_bookbox3-2.jpg" alt="bookboxImage"></li>
+         <li class="conveyor-item2"><img src="img/today_bookbox3-3.jpg" alt="bookboxImage"></li>
+         <li class="conveyor-item3"><img src="img/today_bookbox3-1.jpg" alt="bookboxImage"></li>
+           </ul>
+            
+       </div>
+       </div>
+ 
+     
+ 
+    <!--오늘의 책 우측 자바스크립트 내용2-->
+ 
+      <div class="right_wrap">
+      <ul class="right">
+        <li><img src="img/tdright_2.png" alt="1img"></li>
+ 
+      <li> <img src="img/tdright_3.png" alt="1img"></li>
+ 
+     <li><img src="img/tdright_1.jpg" alt="1img"></li>
+ 
+     </ul>
+       
+     <span class="prev">&lt;</span>
+     <span class="next">&gt;</span>
+ 
+ 
+     </div>
+    
+     </div>
+   <!--여기까지-->
+
+
+
+   <!--세트-->
+    <!--오늘의 책 좌측 자바스크립트내용3-->
+    <div class="todayjs3">
+      <div class="left">
+        <div class="conveyor">
+          <ul>
+         <li class="conveyor-item1"><img src="img/today_bookbox3-3.jpg" alt="bookboxImage"></li>
+         <li class="conveyor-item2"><img src="img/today_bookbox3-1.jpg" alt="bookboxImage"></li>
+         <li class="conveyor-item3"><img src="img/today_bookbox3-2.jpg" alt="bookboxImage"></li>
+           </ul>
+            
+       </div>
+       </div>
+ 
+     
+ 
+    <!--오늘의 책 우측 자바스크립트 내용3-->
+ 
+      <div class="right_wrap">
+      <ul class="right">
+        <li><img src="img/tdright_3.png" alt="1img"></li>
+ 
+      <li> <img src="img/tdright_1.jpg" alt="1img"></li>
+ 
+     <li><img src="img/tdright_2.png" alt="1img"></li>
+ 
+     </ul>
+       
+     <span class="prev">&lt;</span>
+     <span class="next">&gt;</span>
+ 
+ 
+     </div>
+    
+     </div>
+   <!--여기까지-->
+
+
+
+
+
+   <!--오늘의 책 위 파란배너-->
+    <div class="todaytop_wrap">
+      
+     <ul class="todaytop1">
+
+    <li class="todaytopbox"><span><strong>확신(양장본 HardCover) </strong> 롭 무어 | 다산북스</span></li>
+
+
+    <li class="todaytopbox"><span><strong>생태적 전환, 슬기로운 지구 생활을 위하여 </strong>최재천 | 김영사 </span></li>
+
+    <li class="todaytopbox"><span><strong>끝내주는 맞춤법: 쓰는 사람을 위한 반복의 힘 </strong>김정선 | 우유 </span></li>
+
+
+     </ul>
+     
+
+     <div class="prev">&lt;</div>
+     <div class="next">&gt;</div>
+     
+
+    </div>
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+ <!--오늘의 책 옆 광고-->
+ <div class="todayad">
+
+  <div class="top">
+    <img src="img/todayad.jpg" alt="투데이서브">
+
+  </div>
+
+  <div class="bottom">
+    <img src="img/todayad_bot.jpg" alt="투데이bt">
+  </div>
+
+
+</div>
+
+
+</div>
+
+
+<!--사이드메뉴-->
+<div class="sidemenu">
+
+
+  <img src="img/side_menu1.jpg" alt="사이드1" class="s1">
+  <img src="img/side_menu2.jpg" alt="사이드2" class="s2">
+  <img src="img/side_menu3.jpg" alt="사이드3" class="s3">
+  <img src="img/side_menu4.jpg" alt="사이드4" class="s4">
+
+
+  <i class="fab fa-facebook"></i>
+
+
+
+</div>
+
+
+
+<!--화제의 신간-->
+<div class="newwrap">
+
+ <div class="title">
+  <h2>화제의 신간 </h2>
+  <ul>
+    <li>국내도서</li>
+    <li>외국도서</li>
+    <li>eBook</li>
+    <li>sam</li>
+    <li>음반/기프트</li>
+  </ul>
+</div>
+
+<div class="koreabook">
+
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+
+</div>
+
+<div class="foreignbook">
+
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+
+</div>
+
+<div class="ebook">
+
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+
+</div>
+
+<div class="sam">
+
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+
+</div>
+
+<div class="giftbook">
+
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+ <div class="newbox"></div>
+
+</div>
+
+</div>
+
+
+
+
+</main>
+
+<div class="main2">
+
+  <!--only메뉴-->
+
+  <div class="only_logo">
+    <div class="only_img">
+     <img src="img/only_logo.gif" alt="only로고">
+   </div>
+ </div>
+
+
+
+ <div class="onlyiconbox_wrap">
+
+
+
+ <div class="onlyiconbox">
+ 
+  <img src="img/only_icon1.gif" alt="아이콘1" class="a">
+  <img src="img/only_icon2.gif" alt="아이콘2" class="a">
+  <img src="img/only_icon3.gif" alt="아이콘3" class="a">
+  <img src="img/only_icon4.gif" alt="아이콘4" class="a">
+  <img src="img/only_icon5.gif" alt="아이콘5" class="a">
+  <img src="img/only_icon6.gif" alt="아이콘6" class="a">
+
+
+
+  
+  
+</div>
+
+
+
+
+</div>
+
+<div class="onlyiconbox_wrap2">
+
+
+<div class="onlyiconbox2">
+
+  <img src="img/only_icon7.gif" alt="아이콘1" class="a">
+  <img src="img/only_icon8.gif" alt="아이콘2" class="a">
+  <img src="img/only_icon9.gif" alt="아이콘3" class="a">
+  <img src="img/only_icon10.gif" alt="아이콘4" class="a">
+  <img src="img/only_icon11.gif" alt="아이콘5" class="a">
+  <img src="img/only_icon12.gif" alt="아이콘6" class="a">
+
+
+</div>
+</div>
+
+
+
+
+<div class="onlyiconbox_wrap3">
+
+
+  <div class="onlyiconbox3">
+  
+    <img src="img/only_icon13.gif" alt="아이콘1" class="a">
+    <img src="img/only_icon14.gif" alt="아이콘2" class="a">
+    <img src="img/only_icon15.gif" alt="아이콘3" class="a">
+    <img src="img/only_icon16.gif" alt="아이콘4" class="a">
+    <img src="img/only_icon17.gif" alt="아이콘5" class="a">
+    <img src="img/only_icon18.gif" alt="아이콘6" class="a">
+  
+  
+  </div>
+  </div>
+
+
+
+  <div class="onlyiconbox_wrap4">
+
+
+    <div class="onlyiconbox4">
+    
+      <img src="img/only_icon19.gif" alt="아이콘1" class="a">
+      <img src="img/only_icon20.gif" alt="아이콘2" class="a">
+      <img src="img/only_icon21.gif" alt="아이콘3" class="a">
+      <img src="img/only_icon22.gif" alt="아이콘4" class="a">
+      <img src="img/only_icon23.gif" alt="아이콘5" class="a">
+      <img src="img/only_icon24.gif" alt="아이콘6" class="a">
+    
+    
+    </div>
+    </div>
+  
+
+  <ul class="iconbox_button">
+    <li class="ib1"></li>
+    <li class="ib2"></li>
+    <li class="ib3"></li>
+    
+  </ul> 
+
+
+
+
+</div>
+
+
+<div class="main3">
+  <div class="main3wrap">
+
+    <!--지금 뜨는 핫템-->
+    <div class="banner">
+     <img src="img/risingstar.gif" alt="메인3배너" class="banner1">
+    
+   </div>
+   
+   <div class="main3ad">
+     <ul class="adad">
+
+       <li><img src="img/risingstar_ad.jpg" alt="1img" ></li>
+
+     <li><img src="img/risingstar_ad2.jpg" alt="2img"></li>
+
+    <li><img src="img/risingstar_ad3.jpg" alt="3img"></li>
+   
+    </ul>
+
+ 
+
+
+    </div>
+   
+    </div>
+   
+
+</div>
+ 
+
+
+<!--스토리k-->
+<div class="main4">
+  <h2>스토리 :K</h2>
+  <div class="castwrap">
+
+   <div class="castbox">
+     <div class="cast">
+
+      <div class="black">
+        <span>북캐스트</span>
+      </div>
+    </div>
+
+
+
+    <div class="text">
+
+    </div>
+  </div> 
+
+  <div class="castbox">
+   <div class="cast">
+
+    <div class="black">
+      <span>북캐스트</span>
+    </div>
+    
+  </div>
+
+  <div class="text">
+
+  </div>
+</div> 
+
+<div class="castbox">
+ <div class="cast">
+
+  <div class="black">
+    <span>북캐스트</span>
+  </div>
+
+</div>
+
+<div class="text">
+
+</div>
+</div> 
+
+<div class="castbox">
+ <div class="cast">
+
+  <div class="black">
+    <span>북캐스트</span>
+  </div>
+
+</div>
+
+<div class="text">
+
+</div>
+</div> 
+
+
+</div>
+
+</div>
+
+
+<!--베스트셀러-->
+<div class="main5">
+  <div class="main5wrap">
+
+    <div class="bestleft">
+      <div class="title">
+        <h2>베스트셀러</h2>
+        <ul>
+          <li>교보문고종합</li>
+          <li>인터넷일간</li>
+          <li>외국도서</li>
+          <li>eBook</li>
+          <li>오디오북</li>
+          <li>sam</li>
+        </ul>
+      </div>
+      <div class="contents">
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+       <div class="bstbook"> </div>
+     </div>
+
+
+     <div class="contents2">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+
+    <div class="contents3">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+
+    <div class="contents4">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+
+    <div class="contents5">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+
+    <div class="contents6">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+    <div class="contents7">
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+      <div class="bstbook"> </div>
+    </div>
+
+
+   </div>
+
+
+
+
+
+   <!--베스트셀러 오른쪽 박스-->
+   <div class="bestright">
+
+    <div class="box">
+
+      <span>북튜버의 책방</span>
+      <p>추천 eBook</p>
+
+
+    </div>
+
+    <div class="bestside">
+      <div class="bestsidebox">
+      </div>
+
+      <div class="bestsidebox">
+      </div>
+
+
+    </div>
+
+    <div class="bestside2">
+      <div class="bestsidebox">
+      </div>
+
+      <div class="bestsidebox">
+      </div>
+
+
+    </div>
+    
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<div class="main6">
+  <div class="m6_wrap1">
+
+    <div class="recom">
+      <h2>클릭! 실시간 추천</h2>
+      <div class="recombox">
+        <h5>최근 본 상품</h5>
+        </div>
+
+
+      </div>
+
+
+
+
+      <div class="item">
+
+        <div class="itembox"></div>
+        <div class="itembox"></div>
+        <div class="itembox"></div>
+        <div class="itembox"></div>
+      </div>
+
+
+
+    </div>
+
+
+    <div class="m6_wrap2">
+      <h2>감성메이커</h2>
+      <div class="makerbox">
+
+        <div class="product">
+          <img src="img/maker1.jpg" alt="감성메이커" class="ma" >
+
+          <!--감성메이커 사진 위에 흰색 글자-->
+          <div class="imgtext">
+            <p><strong>책 읽는 당신의 라이프스타일을 위해!</strong></p>
+          </div>
+          <!--끝-->
+
+          <!--product 박스 안에 글자-->
+          <div class="text">
+            <p><strong>[기프트]</strong>아라아라 가죽 북커버 시리즈 5가지 사이즈</p>
+          </div>
+
+
+        </div>
+        <!--product 상자 하나 끝-->
+
+
+        <div class="product">
+          <img src="img/maker2.jpg" alt="감성메이커" class="ma">
+          <div class="imgtext">
+            <p><strong>9,900원 초특가!</strong></p>
+          </div>
+
+          <div class="text">
+            <p><strong>[기프트]</strong>아라아라 가죽 북커버 시리즈 5가지 사이즈</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/maker3.jpg" alt="감성메이커" class="ma">
+          <div class="imgtext">
+            <p><strong>이젠 당당하게 고개 들어요!</strong></p>
+          </div>
+
+
+          <div class="text">
+            <p><strong>[기프트]</strong>아라아라 가죽 북커버 시리즈 5가지 사이즈</p>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="img/maker4.jpg" alt="감성메이커" class="ma">
+          <div class="imgtext">
+            <p><strong>감각적인 디자인, 혁신적인 쿡웨어</strong></p>
+          </div>
+
+
+
+          <div class="text">
+            <p><strong>[기프트]</strong>아라아라 가죽 북커버 시리즈 5가지 사이즈</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer>
+    <div class="footermenu_wrap">
+
+      <div class="footermenu">
+        <ul>  
+          <li>회사소개</li>
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+          <li>청소년보호정책</li>
+          <li>고객센터</li>
+          <li>협력사</li>
+          <li>제휴</li>
+          <li>광고문의</li>
+          <li>채용정보</li>
+
+
+        </ul>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="footerwrap">
+
+      <img src="img/logo.png" alt="푸터로고" class="footerlogo">
+
+
+      <div class="contentwrap">
+        <div class="footerleft">
+          <span>㈜ 교보문고 서울시 종로구 종로 1 대표이사 : 박영규<br></span>
+          <span>사업자등록번호 : 102-81-11670<br></span>
+          <span>대표전화 : 1544-1900 (발신자 부담전화) 팩스 : 0502-987-5711 (지역번호공통)<br></span>
+          <span>서울특별시 통신판매업신고번호 : 제 653호 ▶사업자정보확인<br></span>
+          <p><strong>COPYRIGHT(C) KYOBO BOOK CENTRE ALL RIGHTS RESERVED.</strong></p> 
+
+
+        </div>
+
+        <div class="footerright">
+          <span>LG U+ 구매안전서비스 ▶서비스 가입 확인<br></span>
+          <span>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 LG유플러스의 구매안전서비스를
+           이용하실 수 있습니다.<br></span>
+           <span>[인증범위] 온라인 교보문고 서비스 운영<br></span>
+           <span>유효기간] 2020.11.04. ~ 2023.11.03.</span>
+
+         </div>
+       </div>
+
+
+
+
+     </div>
+
+
+   </footer>
+
+ </div>
+
+</div>
+
+</body>
+</html>

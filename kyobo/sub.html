@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>교보문고</title>
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5afcbb24fd.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/common1.css">
+  <link rel="stylesheet" href="css/sub_style.css">
+
+  <script src="js/header.js"></script>
+  <script src="js/withitem.js"></script>
+  <script src="js/sub_sidebox.js"></script>
+  <script src="js/order.js"></script>
+  <script src="js/menu_move.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box
+    }
+
+    ul,
+    ol,
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #wrap {
+      width: auto;
+      height: auto;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <!--맨위 배너-->
+      <div id="header_banner">
+        <span></span>
+        <img src="img/header_banner.jpg" alt="banner">
+        <span><i class="fas fa-times" id="header_remove_banner"></i></span>
+      </div>
+      <!--네비1-->
+      <div class="tnav">
+        <div class="nav1">
+          <div class="nbox2">
+            <ul>
+              <li><a href="#">매장안내<i class="fas fa-chevron-down"></i></a>
+                <ul id="header_store">
+                  <li><span>서울</span>
+                    <ul>
+                      <li><a href="#"></a>광화문점</li>
+                      <li><a href="#"></a>강남점</li>
+                      <li><a href="#"></a>동대문 바로드림센터</li>
+                      <li><a href="#"></a>다큐브시티 바로드림센터</li>
+                      <li><a href="#"></a>목동점</li>
+                      <li><a href="#"></a>서울대 교내서점</li>
+                      <li><a href="#"></a>수유 바로드림센터</li>
+                      <li><a href="#"></a>영등포점</li>
+                      <li><a href="#"></a>은평 바로드림센터</li>
+                      <li><a href="#"></a>이화여대 교내서점</li>
+                    </ul>
+                  </li>
+                  <li><span>수도권</span>
+                    <ul>
+                      <li><a href="#"></a>광교점</li>
+                      <li><a href="#"></a>광교 월드스퀘어센터</li>
+                      <li><a href="#"></a>부천점</li>
+                      <li><a href="#"></a>분당점</li>
+                      <li><a href="#"></a>성균관대 교내서점</li>
+                      <li><a href="#"></a>인천점</li>
+                    </ul>
+                  </li>
+                  <li><span>지방</span>
+                    <ul>
+                      <li><a href="#"></a>광주상무 센터</li>
+                      <li><a href="#"></a>대구점</li>
+                      <li><a href="#"></a>대전점</li>
+                      <li><a href="#"></a>반월당 바로드림센터</li>
+                      <li><a href="#"></a>부산점</li>
+                      <li><a href="#"></a>세종 바로드림센터</li>
+                      <li><a href="#"></a>센텀시티점</li>
+                      <li><a href="#"></a>울산점</li>
+                      <li><a href="#"></a>전북대 교내서점</li>
+                      <li><a href="#"></a>창원점</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li id="bb"><a href="#">회원혜택<i class="fas fa-chevron-down"></i></a>
+                <ul id="header_benefit">
+                  <li><a href="#"></a>교보북클럽</li>
+                  <li><a href="#"></a>등급별 회원혜택 </li>
+                  <li><a href="#"></a>신규회원 혜택</li>
+                  <li><a href="#"></a>제휴포인트/상품권</li>
+                  <li><a href="#"></a>참좋은교보문고</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="nbox3">
+            <ul id="header_side">
+              <li>로그인</li>
+              <li>회원가입</li>
+              <li>출석체크</li>
+              <li>고객센터</li>
+              <li>주문배송</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--로고-->
+      <div class="boxx">
+        <div id="logo">
+          <a href="main.html">
+            <img src="img/logo.png" alt="로고"></a>
+        </div>
+        <!--헤더 검색창-->
+        <div class="search">
+          <input type="search" placeholder="우리아이 이제 5개국어 가능합니다.">
+          <img src="img/search.gif" alt="검색" class="s">
+        </div>
+        <!--헤더 광고박스-->
+        <div class="adbox">
+          <ul>
+            <li><a href="#" target="headad"><img src="img/header_ad.jpg" alt="1"></a></li>
+            <li><a href="#" target="headad"><img src="img/header_ad2.jpg" alt="2"></a></li>
+            <li><a href="#" target="headad"><img src="img/header_ad3.jpg" alt="3"></a></li>
+            <li><a href="#" target="headad"><img src="img/header_ad4.jpg" alt="4"></a></li>
+          </ul>
+          <div class="prev">&lt;</div>
+          <div class="next">&gt;</div>
+          <span class="count">1 / 4</span>
+        </div>
+      </div>
+      <!--네비2-->
+      <div class="tnav2">
+        <div class="nav2">
+          <div class="nav2_1">
+            <ul id="header_nav_main">
+              <div class="ibox">
+                <li class="header_nav_first"><i class="fas fa-bars"></i>
+                  <ul class="header_nav_hamburger">
+                    <li><a href="#">국내도서</a></li>
+                    <li><a href="#">외국도서</a></li>
+                    <li><a href="#">eBook</a></li>
+                    <li><a href="#">코믹스</a></li>
+                    <li><a href="#">sam</a></li>
+                    <li><a href="#">기프트</a></li>
+                    <li><a href="#">음반</a></li>
+                    <li><a href="#">중고장터</a></li>
+                    <li><a href="#">ONLY 교보문고</a></li>
+                  </ul>
+                </li>
+              </div>
+              <li><a href="#">국내도서</a></li>
+              <li><a href="#">외국도서</a></li>
+              <li class="header_nav_main_sub"><a href="#">eBook<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_nav_main_submenu">
+                  <li><a href="#">일반도서</a></li>
+                  <li><a href="#">로맨스/BL</a></li>
+                  <li><a href="#">판타지/무협</a></li>
+                  <li><a href="#">sam</a></li>
+                  <li><a href="#">코믹스</a></li>
+                  <li><a href="#">오디오북</a></li>
+                  <li><a href="#">학술논문</a></li>
+                </ul>
+              </li>
+              <li><a href="#">웹소설</a></li>
+              <li class="header_nav_main_sub"><a href="#">기프트<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_nav_main_submenu">
+                  <li><a href="#">디자인문구</a></li>
+                  <li><a href="#">디지털</a></li>
+                  <li><a href="#">키친/푸드</a></li>
+                  <li><a href="#">오피스</a></li>
+                  <li><a href="#">고급필기구</a></li>
+                </ul>
+              </li>
+              <li class="header_nav_main_sub"><a href="#">음반<i class="fas fa-chevron-down"></i></a>
+                <ul class="header_nav_main_submenu">
+                  <li><a href="#">음반</a></li>
+                  <li><a href="#">DVD</a></li>
+                  <li><a href="#">블루레이</a></li>
+                </ul>
+              </li>
+              <li><a href="#">중고장터</a></li>
+              <li class="header_nav_main_sub"><a href="#"><i class="far fa-plus-square"></i></a></li>
+              <li>메뉴 전체보기</li>
+              <li>서비스 전체보기<i class="fas fa-chevron-right"></i></li>
+            </ul>
+          </div>
+          <div class="nav2_2">
+            <ul>
+              <li>베스트</li>
+              <li>신상품</li>
+              <li>이벤트</li>
+              <li>사은품</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </header>
+      <!--네비2 끝 header끝, main  시작-->
+      <!--메인 위 카테고리-->
+      <div class="main_category">
+        <span>홈 > </span>
+        <span>국내도서 ></span>
+        <div>
+          <h5>자기계발<i class="fas fa-caret-down"></i></h5>
+        </div>
+        <span>></span>
+        <div>
+          <h5>성공처세<i class="fas fa-caret-down"></i></h5>
+        </div>
+        <span>></span>
+        <div>
+          <h5>자기관리/처세<i class="fas fa-caret-down"></i></h5>
+        </div>
+      </div>
+      <main>
+        <!--메인 왼쪽-->
+        <div class="main_left">
+          <!--메인 왼쪽 책-->
+          <div class="purchase_book">
+            <img src="img/sub/purchase_book.jpg" alt="판매책">
+          </div>
+          <!--매장 재고,위치-->
+          <div class="purchase_store">
+            <span>매장 재고 · 위치 </span><i class="fas fa-chevron-right"></i>
+          </div>
+          <!--키워브 pick-->
+          <div class="pick">
+            <h5>키워브 Pick</h5>
+            <ul>
+              <li><a href="#">비즈니스</a></li>
+              <li><a href="#">성공학</a></li>
+              <li><a href="#">성공 철학</a></li>
+              <li><a href="#">미국</a></li>
+              <li><a href="#">에미상</a></li>
+              <li><a href="#">테레사</a></li>
+            </ul>
+          </div>
+          <!--이 책의 다른 상품 정보-->
+          <div class="another_info">
+            <h5>이 책의 다른 상품 정보</h5>
+            <ul>
+              <li><a href="#">sam : 한달 3권 9,900원</a></li>
+              <li><a href="#">eBook : 10,360원</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--메인 왼쪽 끝, 오른쪽 시작-->
+        <div class="main_right">
+          <!--메인 오른쪽 첫번째 타이틀상세 박스-->
+          <div class="title">
+            <span>무료배송</span>
+            <span>소득공제</span>
+            <div class="maintitle">
+              <h3>이기는 사람들의 지혜</h3> <h5>백만장자의 사고방식</h5>
+              
+            </div>
+            <h6>짐 스토벌 지음 | 유영훈 옮김 | 나무생각 | 2021년 03월 16일 출간</h6>
+            <i class="fas fa-heart"><span>8.8</span></i>
+          </div>
+          <!--메인 오른쪽 두번째 타이틀상세 박스-->
+          <div class="title_sub">
+            <span class="oprice">정가 : 14,800원</span> <br>
+            <span>판매가 : <span class="price">13,320원</span><span class="down"> [10% ↓]</span></span>
+            <!--포인트 박스-->
+            <div class="point">
+              <div class="point_title">
+                <span>통합 포인트 :</span>
+              </div>
+              <div class="point_content">
+                <span>[기본적립] <strong>740원</strong> 적립 [5% 적립]</span>
+                <span>[추가적립] 5만원 이상 구매 시 2천원 추가적립</span>
+                <span>[회원혜택] 실버등급 이상, 3만원 이상 구매 시 2~4% 추가적립</span>
+              </div>
+            </div>
+            <span>추가혜택 : <span class="point_last">포인트안내</span><span class="point_last">도서소득공제 안내</span><span
+                class="point_last">추가혜택 더 보기</span></span>
+          </div>
+          <!--메인 오른쪽 세번째 타이틀상세 박스-->
+          <div class="title_sub2">
+            <span>배송비 : 무료 <span class="deli">배송비 안내</span></span>
+            <!--배송일정 박스-->
+            <div class="deli_date">
+              <div class="deli_date_title">
+                <span>배송일정 : </span>
+              </div>
+              <div class="deli_date_content">
+                <span>서울특별시 종로구 세종대로 기준 <span class="zone">지역 변경</span></span>
+                <span class="date">03월 11일 출고 예정<span class="deli_guide">배송일정 안내</span></span>
+              </div>
+            </div>
+            <span>바로드림 : 인터넷으로 주문하고 매장에서 직접 수령 <span class="dream">안내</span> <span class="dream">바로드림 혜택</span></span>
+          </div>
+          <!--메인 오른쪽 마지막 타이틀상세 박스-->
+          <div class="title_last">
+            <div class="order">
+              <span>주문수량 </span> <input type="button" value="1"> <i class="fas fa-plus"
+                id="purchase_inf_pay_num_plus"></i> <i class="fas fa-minus" id="purchase_inf_pay_num_minus"></i>
+            </div>
+            <button class="button1">장바구니 담기</button>
+            <button class="button2">바로 구매</button>
+            <button class="button3">바로드림 주문</button>
+            <button class="button4">선물하기</button>
+            <button class="button5">보관함담기</button>
+          </div>
+        </div>
+        <!--메인 오른쪽 끝-->
+
+      </main>
+
+      <!--메인2 시작-->
+
+      <div class="main2">
+        <div class="withitem">
+          <div class="withitem_title">
+            <span>함께 구매한 상품</span>
+          </div>
+          <div class="withitem_content">
+            <div class="itembox"></div>
+            <div class="itembox"></div>
+            <div class="itembox"></div>
+            <div class="itembox"></div>
+            <div class="itembox"></div>
+            <div class="itembox"></div>
+          </div>
+        </div>
+      </div>
+      <!--메인2 끝-->
+      <div class="main3">
+        <!--메인3에 왼쪽-->
+        <div class="left">
+          <div class="main_intro">
+            <ul>
+              <li><a href="#">상품정보</a></li>
+              <li><a href="#">회원리뷰</a></li>
+              <li><a href="#">교환/반품/품절</a></li>
+
+            </ul>
+          </div>
+          <!--책소개-->
+          <div class="bookintro">
+            <div class="ibox">
+              <h4>책소개</h4>
+            </div>
+            <div class="ibox2">
+              <span class="sort">이 책이 속한 분야</span><br>
+              <span class="subsort">자기계발 > 성공/처세 > 자기관리/처세</span>
+            </div>
+            <div class="ibox3">
+              <p>시각장애를 극복하고 에미상, 올해의 기업인상,
+                국제인도주의자상 등을 수상한 짐 스토벌의 성공 철학
+
+                이기는 사람들은 무엇이 다른가
+
+                “1퍼센트의 가능성, 그것이 나의 길이다.” 미국의 세계적인 성공학 연구자 나폴레온 힐의 명언이다. 그 1퍼센트의 가능성을 뚫고 자신의 삶과 영향력으로 성공학의 계보를 이은 짐 스토벌의
+                이야기가 전 세계 독자들의 마음을 사로잡았다. 18세에 희귀난치성질환 진단을 받고 앞을 볼 수 없게 된 스토벌은 자신이 가진 장애에 굴복하지 않고 올림픽 역도 미국 국가대표 선수로
+                출전하여 금메달을 땄으며, 이후 투자 중개인, NTN 방송국 창립자 겸 대표, 방송인, 작가 및 칼럼니스트로 활약하였다. 특히 NTN(Narrative Television
+                Network)은 시각장애인들을 위해 사운드 트랙 위에 내레이터를 추가하는 혁신적 기술과 서비스로 미국에서는 텔레비전 방송 분야의 아카데미라 불리는 ‘에미상’을 수상하는 쾌거를 낳기도
+                했다. 개인적으로는 대통령 직속 기회균등위원회에서 주는 ‘올해의 기업인상’을 수상하고, 지미 카터 미국 전 대통령과 테레사 수녀와 함께 영예로운 올해의 국제인도주의자상 수상자에도 이름을
+                올렸습니다. 무엇보다 나폴레온 힐 재단에서 성공학의 계보를 잇는 영향력 있는 인물로 꼽고 수십 년 동안 써온 〈이기는 사람들의 지혜〉 칼럼을 공식 간행물로 꾸준히 출간하고 있다.
+
+                전 세계에서 성공 좀 했다 하는 사람들은 스토벌의 이 칼럼을 필독서로 읽고 연구한다. 이 책은 시각 장애라는 크나큰 장애를 가지고도 특유의 긍정적 에너지와 목표를 향한 열정, 범접할 수
+                없는 자기 관리와 동기 부여로 누구보다 뛰어난 업적을 남긴 스토벌의 칼럼을 한데 모아 엮은 책이다. 성공하고 싶다면, 즉각적인 동기 부여가 필요하다면 스토벌의 성공 철학을 당신 것으로
+                만들어야 한다. 덤으로 삶을 대하는 스토벌의 진지함과 선량함, 위트와 지혜까지 선물로 얻을 수 있을 것이다. 작은 섹션으로 구성되어 부담 없이 한 편 한 편 읽을 수 있으며, 직장인과
+                사업가들에게 자기 성찰을 북돋는 정신적 지혜를 결합한 독특한 가이드를 제공한다.</p>
+            </div>
+          </div>
+          <!--상세 이미지-->
+          <div class="detail_img">
+            <h4>상세 이미지</h4>
+            <img src="img/sub/detail_img.jpg" alt="상세이미지" class="detimg">
+          </div>
+          <!--저자 소개-->
+          <div class="author">
+            <h4>저자 소개</h4>
+            <div class="author_intro">
+              <img src="img/sub/author_img.jpg" alt="저자사진" class="aimg">
+              <div class="author_name">
+                <span>저자: 짐 스토벌</span>
+                <p>에미상을 수상한 NTN(Narrative Television Network) 방송국 창립자이자 대표다. 18세에 희귀병 진단을 받고 시력을 잃었다. 그러나 시각장애에도 불구하고
+                  특유의 긍정적 사고로 전 국가대표 역도선수로 활동했으며, 30여 권의 책을 집필한 작가이자 칼럼니스트로, 투자 중개인, 기업가로 살며 성공을 음미했다. 특히 NTN은 미국의
+                  1,300만 명 시각장애인과 그들의 가족을 위해 내레이터의 목소리를 프로그래밍 사운드 트랙에 추가하여 송출함으로써, 뛰어난 서비스와 혁신적인 기술로 1990년 에미상을 비롯해 미디어
+                  분야에서 여러 의미 있는 상을 수상했다. 나폴레온 힐이 주목한 그의 칼럼들도 세계 여러 나라의 언어로 번역되어 소개되었고, 출간 당시 뉴욕타임스가 선정한 베스트셀러 《최고의 유산
+                  상속받기(TheUltimate Gift)》는 할리우드 영화 〈최고의 유산〉으로도 제작되어 큰 주목을 받았다.
+
+                  개인적으로도 큰 성공을 거둔 동시에, 2000년에는 마더 테레사와 지미 카터 등이 수상한 국제인도주의자상을 받았으며, 2010년에는 미국맹인협회에서 평생 공로상을 수상했다. 저서로는
+                  《백만장자 지도》 《유산의 선물》 《최고의 생산성》 《시대의 지혜》 《오늘이 바로 그날》 《최고의 성취에 대한 비밀》 《눈이 멀지 않아도 알 수 있다》 등이 있다.</p>
+              </div>
+            </div>
+          </div>
+          <!--회원리뷰메뉴-->
+          <div class="main_intro2">
+            <ul>
+              <li><a href="#">상품정보</a></li>
+              <li><a href="#">회원리뷰</a></li>
+              <li><a href="#">교환/반품/품절</a></li>
+            </ul>
+          </div>
+          <!--리뷰-->
+          <div class="review">
+            <h4>리뷰</h4>
+            <div class="table">
+              <div class="table_sub1">
+                <span>최신순 | 추천순</span>
+              </div>
+              <div class="table_sub2">
+                <div class="heart">
+                  <i class="fas fa-heart"></i><span>8.4</span>
+                  <span class="heart_num">lu**ryoo 2021-03-09 15:28:52</span>
+                </div>
+                <div class="heart_content">
+                  <p>삶을 살아가면서 여러가지 상황에서 지혜가 필요할때가 있을때 아마도 이 책을 펼칠것 같다. 책의 내용은 다양한 상황에서의 삶에 대한 철학을 생각하게 해주며 오늘을 살게해주며 나를
+                    위해 살게 해줄수 있는 책이다. 또한 가족의 중요성을 잊지 않게끔 해주는것도 빠질 수 없다. 부드러운 자기개발서 또는 지혜가 담긴 철학책. 매일 한두장씩 곱씹으며 읽고 싶은
+                    책이다.</p>
+                </div>
+              </div>
+              <div class="table_sub3">
+                <div class="heart">
+                  <i class="fas fa-heart"></i><span>9.2</span>
+                  <span class="heart_num">wi**ie56 2021-03-09 00:05:15</span>
+                </div>
+                <div class="heart_content">
+                  <p>작가는 글에서 시간의 주인에게 타인이 그시간을 통제하도록 내버려두지 말라고 경고한다. 공짜시간인냥 비효율적인 만남과 대화로 낭비되는 시간보다 휴식을 통한 바람직한 투자를
+                    권유한다. 돌이켜보면 나의의지와 상관없이 많은 시간들이 타인의 손에서 모래시계처럼 흘러가버린 순간들이 많다. 당시에는 몇 분 몇 초에 불과했더라도 그것도 하루를 완성하는 소중한
+                    시간이었음은 분명하다. 시간의 주인인 나, 그 시간을 현명하게 써보도록 해보자.</p>
+                </div>
+              </div>
+              <div class="table_sub4">
+                <div class="turn">
+                  <span><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-left"></i>맨 앞</span>
+                  <span><i class="fas fa-chevron-left"></i>이전</span>
+                  <span class="turn_num">1</span>
+                  <span>다음<i class="fas fa-chevron-right"></i></span>
+                  <span>맨뒤<i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--교환/반품 메뉴-->
+          <div class="main_intro3">
+            <ul>
+              <li><a href="#">상품정보</a></li>
+              <li><a href="#">회원리뷰</a></li>
+              <li><a href="#">교환/반품/품절</a></li>
+            </ul>
+          </div>
+          <div class="exchange">
+            <h4>교환/반품/품절안내</h4>
+            <p>※ 상품 설명에 반품/교환 관련한 안내가 있는 경우 그 내용을 우선으로 합니다. (업체 사정에 따라 달라질 수 있습니다.)</p>
+            <table>
+              <tr>
+                <th>반품/교환방법</th>
+                <td>
+                  <span>마이룸 > 주문관리 > 주문/배송내역 > 주문조회 > 반품/교환신청 ,<br>
+                    [1:1상담>반품/교환/환불] 또는 고객센터 (1544-1900)<br>
+                  </span>
+                  ※ 오픈마켓, 해외배송주문, 기프트 주문시 [1:1상담>반품/교환/환불]<br>
+                  또는 고객센터 (1544-1900)
+                </td>
+              </tr>
+              <tr>
+                <th>반품/교환가능 기간</th>
+                <td>
+                  변심반푸의 경우 수령 후 7일 이내,<br>
+                  상품의 결함 및 계약내용과 다를 경우 문제점 발견 후 30일 이내
+                </td>
+              </tr>
+              <tr>
+                <th>반품/교환비용</th>
+                <td>
+                  변심 혹은 구매착오로 인한 반품/교환은 반송료 고객 부담
+                </td>
+              </tr>
+              <tr>
+                <th>반품/교환 불가 사유</th>
+                <td>
+                  <ul>
+                    <li>소비자의 책임 있는 사유로 상품 등이 손실 또는 훼손된 경우<br>(단지 확인을 위한 포장 훼손은 제외)</li>
+                    <li>소비자의 사용, 포장 개봉에 의해 상품 등의 가치가 현저히 감소한 경우<br>예) 화장품, 식품, 가전제품(악세서리 포함) 등</li>
+                    <li>복제가 가능한 상품 등의 포장을 훼손한 경우<br>예) 음반/DVD/비디오, 소프트웨어, 만화책, 잡지, 영상 화보집</li>
+                    <li>소비자의 요청에 따라 개별적으로 주문 제작되는 상품의 경우 ((1)해외주문도서)</li>
+                    <li>디지털 컨텐츠인 eBook, 오디오북 등을 1회 이상 다운로드를 받았을 경우</li>
+                    <li>시간의 경과에 의해 재판매가 곤란한 정도로 가치가 현저히 감소한 경우</li>
+                    <li>전자상거래 등에서의 소비자보호에 관한 법률이 정하는 소비자 청약철회 제한 내용에<br>해당되는 경우
+                      (1) 해외주문도서 : 이용자의 요청에 의한 개인주문상품으로 단순변심 및 착오로 인한 취소/교환/반품 시 ‘해외주문 반품/취소 수수료’ 고객 부담<br>
+                      (해외주문 반품/취소 수수료 : ①서양도서-판매정가의 12%, ②일본도서-판매정가의 7%를 적용)</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>상품 품절</th>
+                <td>
+                  공급사(출판사) 재고 사정에 의해 품절/지연될 수 있으며, 품절 시 관련 사항에 대해서는<br>
+                  이메일과 문자로 안내드리겠습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>소비자 피해보상<br>환불지연에 따른 배상</th>
+                <td>
+                  <ul>
+                    <li>상품의 불량에 의한 교환, A/S, 환불, 품질보증 및 피해보상 등에 관한 사항은<br> 소비자분쟁해결 기준 (공정거래위원회 고시)에 준하여 처리됨</li>
+                    <li>대금 환불 및 환불지연에 따른 배상금 지급 조건, 절차 등은 전자상거래 등에서의<br>소비자 보호에 관한 법률에 따라 처리함</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!--메인3에 오른쪽-->
+        <div class="right">
+          <div class="sidebox1">
+            <h4>이 분야의 베스트<span>더보기 +</span></h4>
+            <div class="sidebox1_box">
+              <div class="sidebox1_box_text"></div>
+            </div>
+            <div class="sidebox1_box">
+              <div class="sidebox1_box_text"></div>
+            </div>
+            <div class="sidebox1_box">
+              <div class="sidebox1_box_text"></div>
+            </div>
+            <div class="sidebox1_box">
+              <div class="sidebox1_box_text"></div>
+            </div>
+            <div class="sidebox1_box">
+              <div class="sidebox1_box_text"></div>
+            </div>
+          </div>
+          <div class="sidebox2">
+            <h4>이 분야의 신간<span>더보기 +</span></h4>
+            <div class="sidebox2_box">
+              <div class="sidebox2_box_text"></div>
+            </div>
+            <div class="sidebox2_box">
+              <div class="sidebox2_box_text"></div>
+            </div>
+            <div class="sidebox2_box">
+              <div class="sidebox2_box_text"></div>
+            </div>
+            <div class="sidebox2_box">
+              <div class="sidebox2_box_text"></div>
+            </div>
+            <div class="sidebox2_box">
+              <div class="sidebox2_box_text"></div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <footer>
+        <div class="footermenu_wrap">
+          <div class="footermenu">
+            <ul>
+              <li>회사소개</li>
+              <li>이용약관</li>
+              <li>개인정보처리방침</li>
+              <li>청소년보호정책</li>
+              <li>고객센터</li>
+              <li>협력사</li>
+              <li>제휴</li>
+              <li>광고문의</li>
+              <li>채용정보</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerwrap">
+          <img src="img/logo.png" alt="푸터로고" class="footerlogo">
+          <div class="contentwrap">
+            <div class="footerleft">
+              <span>㈜ 교보문고 서울시 종로구 종로 1 대표이사 : 박영규<br></span>
+              <span>사업자등록번호 : 102-81-11670<br></span>
+              <span>대표전화 : 1544-1900 (발신자 부담전화) 팩스 : 0502-987-5711 (지역번호공통)<br></span>
+              <span>서울특별시 통신판매업신고번호 : 제 653호 ▶사업자정보확인<br></span>
+              <p><strong>COPYRIGHT(C) KYOBO BOOK CENTRE ALL RIGHTS RESERVED.</strong></p>
+            </div>
+            <div class="footerright">
+              <span>LG U+ 구매안전서비스 ▶서비스 가입 확인<br></span>
+              <span>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 LG유플러스의 구매안전서비스를
+                이용하실 수 있습니다.<br></span>
+              <span>[인증범위] 온라인 교보문고 서비스 운영<br></span>
+              <span>유효기간] 2020.11.04. ~ 2023.11.03.</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body>
+
+</html>
