@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ka You Kyung WEB PORTFOLIO</title>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/80a2be1de2.js" crossorigin="anonymous"></script>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!--CSS-->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/section1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    
+    <script src="js/particles.js"></script>
+    <script src="js/Typing.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/webAuto.js"></script>
+    <script src="js/mobileSlide.js"></script>
+    <script src="js/iconmenu.js"></script>
+    <script src="js/section1_img.js"></script>
+</head>
+<body onload="showImage()"> 
+    <!--right icon menu-->
+    <ul class="side_nav">
+        <li data-menuanchor="anchor1">
+            <a href="#anchor1"><img src="img/glass1_over.png" alt="맥주" class="beer"></a>
+            <span>home</span>
+        </li>
+        <li data-menuanchor="anchor2">
+            <a href="#anchor2"><img src="img/glass2_over.png" alt="맥주" class="beer"></a>
+            <span>Project 01</span>
+        </li>
+        <li data-menuanchor="anchor3">
+            <a href="#anchor3"><img src="img/glass3_over.png" alt="맥주" class="beer"></a>
+            <span>Project 02</span>
+        </li>
+        <li data-menuanchor="anchor4">
+            <a href="#anchor4"><img src="img/glass4_over.png" alt="맥주" class="beer"></a>
+            <span>Project 03</span>
+        </li>
+        <li data-menuanchor="anchor5">
+            <a href="#anchor5"><img src="img/glass5_over.png" alt="맥주" class="beer"></a>
+            <span>Project 04</span>
+        </li>
+        <li data-menuanchor="anchor6">
+            <a href="#anchor6"><img src="img/glass6_over.png" alt="맥주" class="beer"></a>
+            <span>About Me</span>
+        </li>
+    </ul>
+    <div id="fullpage">
+        <!--section 1 : home-->
+        <div class="section section-01">
+            <div id="stars"></div>
+            <div id="stars2"></div>>
+            <div id="stars3"></div>>
+            <div class="sec1">
+                    <img src="img/squid.png" id ="introImg" alt="intro">
+                <div class="typing-txt">
+                    <ul>
+                  
+                        <li> MY NAME IS KA YOU KYUNG</li>
+                    </ul>
+                </div>
+                <p class="typing"></p>
+                <h6> HTML / CSS / JAVA Script / J-QUERY</h6>
+            </div> 
+        </div>
+        <!--section 2 : 프로젝트 01:교보문고-->
+        <div class="section section-02">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>01</em></h1>
+                    <h2>KOYBO</h2>
+                    <h4>Open API, Json, Javascript</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>KaKao에서 제공하는 Open API 데이터를 받아 AJAX를 <br>
+                       사용하여 제작한 '교보문고' 웹 페이지입니다.
+                       도서 상품<br>에 더 집중할 수 있도록 전체적인 페이지를 흰색계열의<br> 컬러를 
+                       사용하였고, 로고의 남색계열 컬러를 포인트 컬러<br>로 사용하였습니다. <br><br>
+
+                       메뉴와 슬라이더는 동적인 느낌을 주면서 더 많은 정보를<br>
+                       제공하기 위해
+                       애니메이션을 추가하였습니다. <br><br>
+
+                       도서를 구매할 수 있는 Sub Page도 함께 제작하였습니다.</p>
+                    <a href="../kyobo/main.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="../kyobo/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="kyobo">
+                            <li><img src="img/kyobo_main.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="kyobobox" onclick="window.open('../kyobo/main.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section 3 : 프로젝트 02:나사 반응형-->
+        <div class="section section-04">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>02</em></h1>
+                    <h2>NASA</h2>
+                    <h4>Responsive Website</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>미국의 우주 개발 계획을 추진하는 정부 기관을 소개하는<br> NASA 웹페이지입니다. <br><br>
+                        NASA 로고의 색과 유사한 짙은 네이비 컬러를 사용하여 <br> 홈페이지에 통일성을 주었습니다.
+
+                        페이지 구성은 원페이<br>지 형식을 이용해 움직임을 줄이고 한눈에
+                        이해할 수 있<br>도록 하였습니다. <br> <br> 디스플레이 종류에 따라 화면의 크기가 자동으로 최적화<br> 되도록 
+                        미디어 쿼리를 사용한 반응형 웹을 적용하였습니다.
+                    </p>
+                    <a href="../nasa/main.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="../nasa/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="pofomobile">
+                    <div class="pofomobile_box" onclick="window.open('../nasa/sub.html')">
+                        <ul>
+                            <li><img src="img/nasa_sub1.png" alt=""></li>
+                            <li><img src="img/nasa_sub2.png" alt=""></li>
+                            <li><img src="img/nasa_sub3.png" alt=""></li>
+                            <li><img src="img/nasa_sub4.png" alt=""></li>
+                        
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="nasa">
+                            <li><img src="img/nasa_main.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="nasabox" onclick="window.open('../nasa/main.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section 4 : 프로젝트 03:레스토랑 반응형-->
+
+        <div class="section section-03">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>03</em></h1>
+                    <h2>DELICIOUSA RESTAURANT</h2>
+                    <h4>Responsive Website</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>'DELICIOUSA' 레스토랑 홍보 반응형 웹 페이지입니다.<br>
+
+                        반응형으로 제작해 사용자들의 각자 다른 해상도에서도 <br>원활한 이용이 가능하게 했습니다.<br>
+
+                        레스토랑 웹의 특성을 강조하여 식욕을 돋구는 색상인<br> 붉은 색을 사용하였습니다. 전체배경은 음식이 돋보이<br>게 하기 위해 하얀색을 사용했습니다.<br><br>
+
+                        서브 페이지에서는 레스토랑의 뉴스와 이벤트 영상 등을<br> 전달하기 용이하게 제작했습니다.
+
+                    </p>
+                    <a href="../restaurant/main.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="../restaurant/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="mobile">
+                    <div class="mobile_box" onclick="window.open('../restaurant/sub.html')">
+                        <ul>
+                            <li><img src="img/res1.png" alt=""></li>
+                            <li><img src="img/res2.png" alt=""></li>
+                            <li><img src="img/res3.png" alt=""></li>
+                            <li><img src="img/res4.png" alt=""></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="res">
+                            <li><img src="img/res.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="resbox" onclick="window.open('../restaurant/main.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section 5 : 프로젝트 04:조명 쇼핑몰-->
+        <div class="section section-05">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>04</em></h1>
+                    <h2>LIGHTING STORE</h2>
+                    <h4>Shopping Mall</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>Lighting Store는 사용자의 취향에 맞게 구매할 수 있도<br>록
+                        다양한 조명을 판매하는 웹사이트입니다.<br>
+
+                        스크롤이 내려가도 상단 네비게이션 이동이 용이하도록 <br>
+                        Fixed Menu를 사용하였습니다.<br><br>
+
+                        조명 판매사이트에 맞게 메인 컬러를 밝은 색인 화이트 <br>
+                        계열의 컬러로 사용하였으며,
+                        포인트 컬러로 블루 계열<br> 
+                        의 컬러를 사용하였습니다. <br>
+
+                        방문자가 상품 이미지에 집중할 수 있도록 폰트 사이즈, <br>
+                         배경색, 글자색을 절제하여 사용하였습니다.
+
+                    </p>
+                    <a href="../shopping/main_json.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="../shopping/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="food">
+                            <li><img src="img/shopping.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="foodbox" onclick="window.open('../shopping/main_json.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--section 6 : About Me-->
+        <div class="section section-06">
+            <div class="profile_wrap">
+                <!--이력서-->
+                <div class="resume">
+                    <h1>ABOUT <em>ME</em></h1>
+
+                    <div class="graph">
+                        <p>“도전이&emsp;두렵지 않은&emsp;그리고&emsp;성장하는”</p>
+                        <div class="graph_line"><img src="img/graph.png" alt="graph"></div>
+                    </div>
+
+                    <div class="career">
+                        <div class="li">
+                            <h3>LICENCE</h3>
+                            <p>컴퓨터 활용능력 2급<br>
+                                웹디자인 기능사(필기 합격,<br> 11월 실기 예정)</p><br><br>
+                        </div>
+                        <div class="tra">
+                            <h3>TRAINING</h3>
+                            <p>이젠컴퓨터아트학원<br>
+                                <span>웹퍼블리셔 UI/UX 프론트엔드 양성과정 수료 (2021년)</span>
+                            </p>
+                        </div>
+                        <div class="skill">
+                            <h3>SKILL</h3>
+                            <table id="skill">
+                                <tr>
+                                    <td class="webicon"><img src="img/html5_w.png" alt="htmlicon"></td>
+                                    <td class="webicon"><img src="img/css3_w.png" alt="cssicon"></td>
+                                    <td class="webicon" colspan="2"><img src="img/JS_w.png" alt="jsicon"></td>
+                                    <td class="other"><img src="img/jquery_w.png" alt="jqueryicon"></td>
+                                </tr>
+                                <tr>
+                                    <td class="symbol"><img src="img/adobe_ps.png" alt="psicon"></td>
+                                    <td class="symbol"><img src="img/adobe_ai.png" alt="ilicon"></td>
+                                    <td class="other"><img src="img/json_w.png" alt="jsonicon"></td>
+                                    <td class="other" colspan="2"><img src="img/ajax.png" alt="ajaxicon"></td>
+                                
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!--프로필-->
+                <div class="profile">
+                    <div class="myphoto">
+                        <div class="profileimg">
+                            <img src="img/profile.jpg" alt="myphoto">
+                        </div>
+                        <div class="profiletxt">
+                            <h3>가유경&ensp;<em>ka You Kyung</em></h3>
+                            <table>
+                                <tr>
+                                    <th>BIRTH</th>
+                                    <td>1998. 12. 21.</td>
+                                </tr>
+                                <tr>
+                                    <th>MOBILE</th>
+                                    <td>010-2491-6235</td>
+                                </tr>
+                                <tr>
+                                    <th>E-MAIL</th>
+                                    <td>kauk1221@naver.com</td>
+                                </tr>
+                                <tr>
+                                    <th>EDUCATION</th>
+                                    <td>협성대학교<br>미디어영상광고 2021년 졸업</td>
+                                </tr>
+                            </table>
+
+                            <h5><em>WEB Publisher</em> ＆ Front end</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
