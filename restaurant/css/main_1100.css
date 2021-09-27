@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@media (min-width:1100px) {
+
+input[name="button1"] { border-radius: 30px; border:1px solid white; background-color: transparent; color: white;margin: 10px 0 0 470px; position:relative; top:24%; left:50%; transform:translate(-300%, 120%); width:192px; height:62px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; }
+input[name="button1"]:hover  {background-color:tomato; border:none; cursor:pointer ; transition:0.8s; }
+input[name="button2"] {width:156.59px; height:51px; border-radius: 30px; background-color:#E04E3B; border:none; color:#FFFFFF; margin: 15px 0 0 50px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;}
+input[name="button2"]:hover {cursor:pointer; background-color:black; transition:0.5s;}
+input[name="button3"] {width:204.36px; height:51px; color:#FFFFFF; background-color: #000000; border:none; border-radius: 30px; margin: 15px 0 0 15px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;}
+input[name="button3"]:hover {cursor:pointer; background-color:#E04E3B; transition:0.5s;}
+input[name="button4"] {width:195.67px; height:51px; border:none; background-color:#E04E3B; border-radius: 30px; color:#FFFFFF; letter-spacing: 3px; margin:50px 0 0 310px; letter-spacing: 0.5px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;}
+input[name="button4"]:hover {background-color:#FFFFFF; color:#E04E3B; transition:0.5s; cursor:pointer;}
+input[name="button5"] {width:80px; height:40px; border: 1px solid #eee; background-color:#E04E3B; border-radius: 5px; color:#FFF;letter-spacing: 1px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;  margin: 75px -210px 0 -30px;}
+input[name="button5"]:hover {cursor:pointer; background-color:black;  transition:0.4s;} 
+input[name="button6"] {width:80px; height:40px; border: 1px solid #eee; background-color:#E04E3B; border-radius: 5px; color:#FFF;letter-spacing: 1px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;  margin: 75px 0px 0 80px;}
+input[name="button6"]:hover {cursor:pointer; background-color:black;  transition:0.4s;} 
+input[name="button7"] {width:156.17px; height:51px; background-color:#E04E3B;color:#FFFFFF; border-radius:40px; padding:15px 35px; font-size:14px; border:none; margin: 5px 0 0 500px; letter-spacing: 1px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;}
+input[name="button7"]:hover {cursor:pointer; background-color:#FFFFFF; color:#E04E3B; transition:0.4s;}
+/*메인 감싸는 wrap*/
+.mainwrap {width:100%; height:auto; }
+main {width:100%;  height:810px; margin:0 auto; background-color:white; display:flex; flex-direction:row; justify-content: center; align-items: center; }
+main > .big > .box1 {width:576px; height:526.33px; background-color:red; margin: -105px 0 0 35px; position:relative; z-index: 500;}
+main > .big > .box2 {width:545px; height:520px; background-color:gray; opacity: 0.2; margin:-480px 0 0 0; position: relative; z-index: 1; }
+main > .big > .box1 > img {width:100%; height:100%;}
+main > .big > .imgbox {width: 191px; height:147px; }
+main > .big > .imgbox > img {width:100%; height:100%; margin:-5px 0 0 -5px; position:relative; z-index:1000;}
+main > .text {width:600px ; height:500px;  }
+main > .text > h1 {color:black; font-size:80px;  margin: -80px 0 0 0; padding-left: 40px;font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;  }
+main > .text > span {font-size:40px; display:inline-block; padding-left: 40px;  color: #E04E38;  font-size:100px;  
+    font-family: "Herr Von Muellerhoff", cursive;}
+main > .text > p {color:#666; text-align:left; font-size:15.1px; margin:8%; padding-top: 10px; line-height: 20px; letter-spacing: -0.2px;}
+/*메인2*/
+.main2 {width:100%; height:504px; margin:0 auto; background-color:tomato; background-image:url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FmZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60); background-attachment: fixed; background-size: cover;}
+.main2 > .text {width:900px; height:505px; margin:0 auto; padding:30px;}
+.main2 > .text > h1 {color:white; text-align: center; margin: 100px 0 0 0; font-size:60px;  font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;}
+.main2 > .text > h3 {color:white; text-align: center; letter-spacing: 2px; font-size: 18px; padding:10px;}
+/*메인3*/
+.main3 {width:100%; height:588.91px; margin:0 auto; background-color:#eee; display:flex; flex-direction:row; justify-content: center; align-items: center;}
+.main3 > .sbox {margin:1%; width:370px; height:388.91px; background-color:gold; border:8px solid white; position:relative; z-index: 1; }
+.main3 > .sbox > .photo {width:355px; height:373px; }
+.main3 > .sbox > .photo > img {width:100%; height:100%;}
+.main3 > .sbox > .photo > img:hover {cursor:pointer;}
+.main3 > .sbox > .text   { margin: -335px 0 0 35px; width:280px; height:298px; border:3px solid white; position:relative; z-index: 1000;  }
+.main3 > .sbox > .text > h3 {color:#fff; text-align: center; font-size:32px;  margin:110px 0 0 0; font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif; }
+.main3 > .sbox > .text:hover { background-color:rgba(0,0,0,0.5);  transition:0.6s; cursor:pointer;}
+/*메인4*/
+.main4 {width:100%; height:988px; margin:0 auto; background-color: skyblue; position:relative; display: flex; justify-content: center; flex-direction: row; flex-wrap: wrap;}
+.main4 > .topbox {width:100%; height:40%; background-color:#fff;  padding:15px; display: flex; justify-content: center;}
+.main4 > .bottombox {width:100%; height:658px; display: flex; justify-content: center; align-items: center; background-image:url(https://youthincmag.com/wp-content/uploads/2020/06/Mashed.jpg); background-size:cover;}
+.main4 > .topbox > .wrap {width: 100%; height:100px; display:flex; justify-content: center; align-items: center; flex-direction: row; }
+.main4 > .topbox > .wrap > .icbox {width:60px; height:60px;  margin:3%;}
+.main4 > .topbox > .wrap >.icbox >  .icon {width:40px; height:40px;  margin:3%;}
+.main4 > .topbox > .wrap >.icbox:hover {cursor:pointer; opacity: 0.5;}
+.main4 > .topbox > .wrap >.icbox > .icon > img {width:100%; height:100%; position:relative; z-index: 1;}
+.main4 > .topbox > .wrap >.icbox > .text1 {width:30px ; height:30px; margin:20px 0 0 -20px;  font-size:15px;   }
+.main4 > .topbox > .wrap >.icbox > .text2 {width:30px ; height:30px; margin:20px 0 0 -3px; font-size:15px; }
+.main4 > .topbox > .wrap >.icbox > .text3 {width:30px; height:30px; margin:20px 0 0 -6px; font-size:15px;}
+.main4 > .topbox > .wrap >.icbox > .text4 {width:30px; height:30px; margin:20px 0 0 -8px; font-size:15px;}
+.main4 > .topbox >.wrap > .icbox > .text5 {width:30px; height:30px; margin:20px 0 0 -6px; font-size:15px;}
+.main4 > .topbox >.wrap > .icbox > .text6 {width:30px; height:30px; margin:20px 0 0 1px;  font-size:15px;}
+.main4 > .menu {width:1100px; height:670px; background-color:#FFF;   position:absolute; bottom:130px;  border-top:5px solid red; display:flex ; flex-direction: row;flex-wrap:wrap; justify-content: center; align-items: center; }
+.main4 > .menu > .american {width:500px; height: 100px;  display:flex; margin:1%; }		
+.main4 > .menu > .american > .photo {width:100px; height:100px;   }
+.main4 > .menu > .american > .photo > img {width:100%; height:100%; }
+.main4 > .menu > .american > .photo > img:hover {opacity:0.6; cursor:pointer;}
+.main4 > .menu > .american > .text {width:370px; height:100px;  }
+.main4 > .menu > .american > .text > h4 {font-size:18px; margin:9px 0 0 12px; }
+.main4 > .menu > .american > .text > p {font-size:15px; color:#666666; text-align: left; margin:7px 0 0 8px; letter-spacing: -0.3px;}
+/*메인5*/
+.main5 {width:100%; height:785.55px; margin:0 auto; }
+.main5 > .wrap {width:100%; height:300px; display:flex; justify-content: center; }
+.main5 > .wrap > .text > span {width:870px; height:70px; font-size: 120px; color:#E04E3B;    display:inline-block; margin: 80px 0 0 15px; position:relative; z-index: 1; width:500px;  font-family: "Herr Von Muellerhoff", cursive;}
+.main5 > .wrap > .text > h1 {font-size:80px;  font-weight: bolder;  position:relative; z-index: 1000;  margin: -28px 0 0 15px; height:100px;  width: 500px; font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif; }
+.main5 > .wrap {width:100%; height:245px; display:flex;  justify-content: center; }
+.main5 > .wrap > .order {width:270px; height:50px;  margin-top: 200px; display:flex; justify-content: space-around; margin-right:-25px;  }
+.main5 > .wrap > .order > input[type="button5"] {width: 150px; height: 100px;  border:3px solid black;  }
+.main5 > .contents {display:flex; flex-direction:row; justify-content: center;align-items: center; width:1200px; height:450px; margin:0 auto; }
+.main5> .contents > .chefbox {width:270px; height:345px;  margin:2%; position:relative; z-index: 1; margin: 90px 20px 0 0;}
+.main5 > .contents > .chefbox > .photo {width:270px; height:345px; }
+.main5 > .contents > .chefbox > .photo > img {width:100%;height:100%; }
+.main5 > .contents > .chefbox > .photo > img:hover {cursor:pointer;}
+.main5 > .contents > .chefbox > .line {width:246px; height:317px; border:5px solid #E04E3B; background-color:transparent; position:relative; z-index: 1000; margin:-332px 0 0 12px;}
+.main5 > .contents > .chefbox > .line:hover {background-color:rgba(0,0,0,0.4); cursor:pointer;}
+.main5 > .contents > .chefbox > .namebox { width: 270px; height:100px;   }
+.main5 > .contents > .chefbox > .namebox > h2 {text-align:center;color:#181818; font-size:22px; padding:30px;}
+.main5 > .contents > .chefbox > .namebox > h2:hover {cursor:pointer;}
+/*메인6*/
+.main6 {width:100%; height:793px; margin:0 auto; background-color:cyan; background-image:url(https://bk.asia-city.com/sites/default/files/scarlet_slide.jpg); background-attachment: fixed; background-size:cover; }
+.main6 > .photo {width:100%; height:100%; background-color:rgba(0,0,0,0.9); padding:150px;}
+.main6 > .photo > .wrap {width:1210px; height: 600px;  margin:0 auto; margin-top: -55px; }
+.main6 > .photo > .wrap > span {display:inline-block; font-size:120px; color:#E04E3B;   letter-spacing: -5px; margin: 0 0 0 430px; position:relative; top:-10px; font-family: "Herr Von Muellerhoff", cursive;}
+.main6 > .photo > .wrap > h1 {font-size:80px; color:#FFF;  margin:-40px 0 0 0; text-align:center;  position:relative; top:-55px; font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;}
+
+select {width:370px; height:50px; border-radius: 40px; border:2px solid #535250; background-color:transparent; margin:1%; padding:10px 10px; color:#FFF;}
+input[type="text"] {width:370px; height:50px; border-radius:40px; padding:15px 15px; border:2px solid #535250; background-color:transparent; margin:1%; color:#FFF;} 
+textarea {width:1170px; height:90px; border-radius: 20px; padding:10px 10px; border:2px solid #535250; background-color:transparent; margin:1%; color:#FFF;}
+option {color:black;}
+/*메인7*/
+.main7 {width:100%; height:824px; margin:0 auto; }
+.main7 > .text {width:100%; height:245px; display:flex; justify-content: center; }
+.main7 > .text > h1 {text-align:center; font-size:80px;  letter-spacing: -3px; position:relative; z-index: 1000; font-weight: bolder; font-family: 'Alex Brush', cursive;
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;  margin: 100px 0 0 -95px;}
+.main7 > .text > span { position:relative; top:50px; left: 250px; font-size:100px;  color: #E04E3B; display:inline-block; position:relative; z-index: 1; font-family: "Herr Von Muellerhoff", cursive; }
+.main7 > .box {width: 100%; height:524px;  display:flex; justify-content: center; align-items: center; margin: 30px 0 0 0; }
+.main7 > .box > .ibox {width: 370px; height:480px;  margin:1%;box-shadow: 4px 4px 4px 2px ; border:1px solid #eee; }
+.main7 > .box > .ibox > .photo {width: 370px; height:240px; overflow:hidden; }
+.main7 > .box > .ibox > .photo > img {width:100%;height:100%;}
+.main7 > .box > .ibox > .photo > img:hover {transform: scale(1.2); transition:0.5s; cursor:pointer;}
+.main7 > .box > .ibox > .text {width:370px; height:240px; }
+.main7 > .box > .ibox > .text > h5 {color:#666666; font-size:12px; padding: 10px; position:relative; left: -10px; top: 10px; margin:5px 0 0 12px;}
+.main7 > .box > .ibox > .text > h3 {color:#000000; font-size:24px; position:relative; left:11px; top:10px; }
+.main7 > .box > .ibox > .text > h3:hover {color: #E04E3B; cursor:pointer; transition:0.2s;}
+.main7 > .box > .ibox > .text > p {text-align:left;font-size:15px; color:#666666; margin: 15px 0 0 8px; letter-spacing: -0.3px;}
+
+}

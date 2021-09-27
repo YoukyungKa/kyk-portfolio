@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@media (min-width:1100px) {
+    /*전체*/
+	#wrap {width:100%; height:auto; background-color:white; margin:0 auto; }
+
+	#sliderwrap {width:100%; height:480px; background-color:orange; background-image:url(https://modernrestaurantmanagement.com/assets/media/2020/02/AM0A9737-1600x655.jpg); background-position:15% 15%; background-size: cover; }
+
+	#sliderwrap > header {width:100%; height:80px; background-color:rgba(0,0,0,0.8); display:flex;  justify-content: center;  padding:15px;}
+	/*로고*/
+	.logo {width:30%; height:100px;display:flex; flex-direction: row-reverse;  }
+	.logo > a >img {width:150px; height:100%;}
+
+	/*햄버거 메뉴*/
+	.hamburger {display:none;}
+	header > nav {width:70%;height: 80px; display:flex; flex-direction:row; align-items: center;  padding:20px; }
+    header > nav > ul {display:flex; flex-direction: row;}
+	header > nav > ul > li {padding:20px; display:flex; align-items: center; color:#FFFFFF; font-size:17px;}
+	header > nav > ul > li:hover {color:#E04E3B;}
+	input[name="button1"] {width:191.72px; height:45px; padding:10px 25px; border-radius:30px; border-color:#E04E3B; background-color:transparent; color:#FFFFFF; margin-left: 30px; }
+	input[name="button1"]:hover {cursor:pointer; background-color:#E04E3B;}
+
+	/*슬라이드*/
+	#slider {width:100%; height:400px; background-color:rgba(0,0,0,0.8);}
+	.slider_text >  h1 {color:#FFFFFF; text-align: center; font-size: 45px; padding:90px;  font-family: 'Alex Brush', cursive;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-family: 'Parisienne', cursive;
+	font-family: 'Playfair Display', serif;}
+	.slider_text > h3 {color:#FFFFFF; text-align:center;font-size:21px; margin:-90px 0 0 0;}
+
+    /*footer*/
+	footer {width:100%; height:400px; background-color:#eee; background-image:url(https://images.squarespace-cdn.com/content/v1/56a2785c69a91af45e06a188/1507647901507-ZSGMLPXN3W3Y36HAZIJP/ke17ZwdGBToddI8pDm48kFQ-kOf07XBO1CmB2Fbaj1AUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcYsJh3tT6UWQglRBI2YrMKQEHc5prT0K64Nbfb4F1y9qoj_jTHho0lxs29D7dKFMD/Restaurant-Financials-Seasonal-Foods.png?format=1500w); background-attachment: fixed; background-size:cover;}
+footer > .photo {width:100%; height:100%; background-color:rgba(0,0,0,0.9); padding:150px; display:flex; justify-content: center; align-items: center; }
+footer > .photo > .ffbox1 {width:30%; height:330px; background-color:transparent; margin:40px 0 0 0;position:relative; left:25px;}
+footer > .photo > .ffbox1 > .fbox1 {width:100%; height: 320px;   background-color:transparent; }
+footer >.photo > .ffbox1> .fbox1 > h3 {font-size:22px; color:#E04E3B; margin: 0 0 0 90px;}
+footer >.photo > .ffbox1 > .fbox1 > p {font-size:15px; color: #BABABA; line-height: 20px; margin: 20px 0 0 90px;}
+footer> .photo > .ffbox2 > .fbox2 {width:100%; height:320px;  background-color:transparent; position:relative; left:50px; }
+footer > .photo > .ffbox2 > .fbox2 > table tr  th {font-size:22px; color:#E04E3B; width:60%;  padding-top: 15px}
+footer > .photo > .ffbox2> .fbox2 > table  td {font-size: 15px; color: #BABABA;  position:relative; top: 14px;}
+footer> .photo > .fbox3 {width:30%; height:320px;  position:relative; top: 40px; display:flex; flex-direction:column;}
+footer > .photo > .fbox3 > .gbox {display:flex; flex-wrap:wrap; align-content: center;  height:280px; width:75%; margin:-40px 0 0 0;}
+footer > .photo > .fbox3 {margin: 0 0 0 170px; }
+footer > .photo > .fbox3 > .text {margin: 0 0 0 -10px;}
+footer > .photo > .fbox3 >  .text> h3 {color: #E04E3B; margin: 5px 0 0 13px; }
+footer > .photo > .fbox3 > .gbox >  .box {width:20%; height:74px; background-color:pink; margin:1%; }
+footer > .photo > .fbox3 > .gbox > .box > img {width:100%; height:100%; }
+footer > .photo > .fbox3 > .gbox > .box > img:hover {cursor:pointer;}
+
+.footer-bottom {width:100%; height:10px; background-color:#FFF; margin:0 auto;}
+.footer-bottom > .text {width:530px; height:81px;  position:relative; top:28%; left:50%; transform:translate(-50%, -50%); }
+.footer-bottom > .text >h4 {font-size:15px; color:#666666; margin:50px 0 0 60px;}
+
+
+
+
+}
