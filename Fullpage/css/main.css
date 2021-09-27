@@ -1,0 +1,231 @@
+@charset "UTF-8";
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif;}
+ul,li,ol {list-style: none; margin:0; padding:0;}
+a {text-decoration: none;}
+.btn_main {width: 160px; line-height: 36px; margin-right: 10px; padding: 0; background-color: #444; color: #fff; border: 1px solid #444; font-size: 13px; text-align: center; cursor: pointer; transition: all 0.3s;}
+.btn_main:hover {background-color: #fff; color: #444; border: 1px solid #444;}
+.btn_sub {width: 160px; line-height: 36px; margin-right: 10px; padding: 0; background-color: #444; color: #fff; border: 1px solid #444; font-size: 13px; text-align: center; cursor: pointer; transition: all 0.3s;}
+.btn_sub:hover {background-color: #fff; color: #444; border: 1px solid #444;}
+
+main {width:100%; height:100%; background-color:skyblue;}
+body {width: 100%; height: 100vh; -scroll:0; overflow-x: hidden; background: #fff;}
+body::-webkit-scrollbar { width: 8px; height: 15px; background: #fff; }
+body::-webkit-scrollbar-thumb { border-radius: 10px; background-color: #fbb03b;}
+body::-webkit-scrollbar-track { background: #ffffff; }
+
+/* right icon menu */
+.side_nav {width:70px; height:350px; position:fixed; z-index: 5; right:0; top:50%; transform: translateY(-50%); display: flex; flex-wrap: wrap; align-content: space-between;}
+.side_nav > li {width: 70px; height: 70px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; background-color: #ffffff; color: #000000; border-radius: 10px 0 0 10px; font-size: 10px; font-weight: 300; cursor: pointer; margin:5px 0 0 0}
+.side_nav > li > a > i{font-size:28px; color:#000000;}
+
+
+
+
+/* main start */
+#fullpage {margin: 0; padding: 0; position: relative;}
+
+
+/* 포트폴리오 레이아웃*/
+.bodywrap {width:1340px; height:100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+.introduce {width: 40%; height: 700px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-content: space-between;}
+.webpage {width: 60%; height: 100%; overflow: hidden; position: relative;}
+.webpage img {width: 100%; height: auto;}
+
+.bodywrap h1 {width: 100%; font-size: 44px; font-weight: 400; margin-bottom: 50px; color: #444; letter-spacing: -0.5px;}
+.bodywrap h1 em {font-style: normal; font-weight: 900;}
+.bodywrap h4 {width: 100%; font-size: 18px; font-weight: 400; color: #444; margin-bottom: 50px;}
+.bodywrap h5 {width: 100%; font-size: 16px; font-weight: 700; color: #444; letter-spacing: 0.5px; line-height: 10px;}
+.bodywrap p {width: 100%; height: 320px; font-size: 14px; font-weight: 300; color: #444; line-height: 160%;}
+
+/* web 슬라이드*/
+.webpage .bhoverbox {width: 100%; height: 100%; cursor: pointer; position: absolute; z-index: 2; top:0; transition: 0.3s ease-in-out; display: flex; justify-content: center; align-items: center;}
+
+.webpage .bhoverbox > i {width: 34px; line-height: 30px; font-size:20px; color: #fbb03b; border: 2px solid #fbb03b; border-radius: 500px; text-align: center; display: none;}
+.webpage .bhoverbox:hover {background-color: rgba(0,0,0,0.3)}
+.webpage .bhoverbox:hover > i {display: block;}
+
+/* section 1 : home */
+#fullpage > .section-01 {width: 100%; height: 100%;  display: flex; justify-content: space-between;}
+
+#introImg {
+  z-index: 800;
+  position:absolute;
+  top:29%;
+  left:44%;
+
+  
+}
+
+
+h6 {
+    
+  color:#fff;
+  font-weight: bold;
+  font-size:17px;
+  z-index: 400;
+  position:absolute;
+  bottom:270px;
+  left:42%;
+}
+
+
+/* Typing */
+
+.typing-txt{display: none;}
+.typeing-txt ul{list-style:none;}
+.typing {
+  display: inline-block;
+  animation-name: cursor;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  font-size: 35px;
+  color:#ffffff
+
+}
+
+@keyframes cursor{ 0%{border-right: 1px solid #fff} 50%{border-right: 1px solid #000} 100%{border-right: 1px solid #fff} }
+
+.section-01 #homeright_grid {width: 30%; background-color: #fbb03b; position: relative;}
+.section-01 #homeright_grid .typo {position: absolute; left: 4%; top: 50%; transform: translateY(-50%); height: 320px; display: flex; justify-content: flex-end; align-items: flex-end; z-index: 5;}
+
+
+/* section 2 : 프로젝트1:교보문고 */
+#fullpage {width:100%; height:100%;}
+#fullpage > .section-02 {width: 100%; height: 100%; background-color: #e6e9f6}
+.section-02 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #947555; letter-spacing: 0.5px;}
+.section-02 .color {width: 100%; height: 80px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: center; margin-bottom: 40px;}
+.section-02 .color li {width:40px; height:40px; border-radius:50%; margin-right: 10px;}
+.section-02 .color li:first-of-type {background-color: #5e6b9e;}
+.section-02 .color li:last-of-type {background-color: #ffffff;}
+
+
+/* section 3 : 프로젝트2:레스토랑 */
+
+#fullpage > .section-03 {width: 100%; height:100%; margin: 0 auto; background-color: #eee; position:relative; }
+.section-03 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #5e1dfd; letter-spacing: 0.5px;}
+.section-03 .color {width: 100%; height: 80px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: center; margin-bottom: 40px;}
+.section-03 .color li {width:40px; height:40px; border-radius:50%; margin-right: 10px;}
+.section-03 .color li:first-of-type {background-color: #e03e3b;}
+.section-03 .color li:nth-of-type(2) {background-color: #1b1b1b;}
+.section-03  .color li:last-of-type {background-color: #ffffff;}
+
+.mobile {width:235px; height:520px; position:absolute; z-index:3; transform:translate(185%,30%); background-image: url(../img/mobile-01.png); background-size:100% 100%; }
+ .mobile > .mobile_box {width:225px; height: 510px; position: absolute; top: 50%; left: 50.6%; transform: translate(-50%,-50%); border-radius: 28px; overflow: hidden;}
+ .mobile > .mobile_box >  ul { width:225px; height:3500px;}
+ .mobile > .mobile_box >  ul >  li {width: 225px; height: 510px;}
+.mobile > .mobile_box > ul > li > img {width: 100%; height: auto; }
+
+/* section 4 : 프로젝트3 :나사 */
+#fullpage > .section-04 {width: 100%; height:100%;  margin: 0 auto; background-color: #fafafa}
+.section-04 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #0c4e4a; letter-spacing: 0.5px;}
+.section-04 .color {width: 100%; height: 80px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: center; margin-bottom: 40px;}
+.section-04 .color li {width:40px; height:40px; border-radius:50%; margin-right: 10px;}
+.section-04 .color li:first-of-type {background-color: #111111;}
+.section-04 .color li:nth-of-type(2) {background-color: #ffffff;}
+.section-04 .color li:last-of-type {background-color: #00bfe7;}
+
+.pofomobile {width:235px; height:520px; position:absolute; z-index:3; transform:translate(185%,30%); background-image: url(../img/mobile-01.png); background-size:100% 100%; }
+ .pofomobile > .pofomobile_box {width:225px; height: 510px; position: absolute; top: 50%; left: 50.6%; transform: translate(-50%,-50%); border-radius: 28px; overflow: hidden;}
+ .pofomobile > .pofomobile_box >  ul { width:225px; height:3500px;}
+ .pofomobile > .pofomobile_box >  ul >  li {width: 225px; height: 510px;}
+.pofomobile > .pofomobile_box > ul > li > img {width: 100%; height: auto; }
+/* section 5 : 프로젝트4 :조명쇼핑몰*/
+#fullpage > .section-05 {width: 100%; height:100%; margin: 0 auto; background-color: #eee;}
+.section-05 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #4b0082; letter-spacing: 0.5px;}
+.section-05 .color {width: 100%; height: 80px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: center; margin-bottom: 40px;}
+.section-05 .color li {width:40px; height:40px; border-radius:50%; margin-right: 10px;}
+.section-05 .color li:first-of-type {background-color: #5e7e9b;}
+.section-05 .color li:last-of-type {background-color: #ffffff;}
+
+/* section 6 : About Me */
+#fullpage > .section-06 {width: 100%; height:100%;  margin: 0 auto; position: relative; background-color: #0b0b0b}
+.section-06 .profile_wrap {width: 1340px; height: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
+
+/*이력서*/
+.section-06 .resume {width: 920px; height: 700PX; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between;}
+.section-06 .resume h1 {width: 100%; font-size: 44px; font-weight: 400; color: #fbb03b; letter-spacing: -0.5px;}
+.section-06 .resume h1 em {font-style: normal; font-weight: 900;}
+.section-06 .graph {width: 100%; height: 380px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.section-06 .graph p {color: #fff; font-size: 16px; font-weight: 300; letter-spacing: 6px;}
+.section-06 .graph_line {width: 80%;}
+.section-06 .graph_line img {width: 100%;}
+.section-06 .career {height: 200px; display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; }
+.section-06 .career h3 {width: 100%; color: #fff; font-size: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 6px;}
+.section-06 .career p {color: #fff; font-size: 14px; font-weight: 200;}
+.section-06 .career p span {color: #fff; font-size: 12px; font-weight: 200; line-height: 180%;}
+.section-06 .career table {color: #fff; text-align: left; border-collapse: collapse; letter-spacing: 0.5px;}
+.section-06 .career table th {font-size: 14px; font-weight: 400;}
+.section-06 .career table td {width: 120px; font-size: 13px; font-weight: 300; color: #999; line-height: 200%;}
+.li {width: 200px;}
+.tra {width:350px; }
+#skill {margin-top: 8px;}
+#skill td {width: auto;}
+.webicon {height: 58px; padding: 0 14px 6px 0;}
+.webicon img {height: 100%;}
+.other {height: 50px;}
+.other:nth-of-type(3) {height: 36px;}
+.other img {height: 100%;}
+.symbol {height: 44px; padding-top: 6px}
+.symbol:last-of-type {padding-right: 0;}
+.symbol img {height: 100%;}
+
+/*프로필*/
+.section-06 .profile {width: 360px; height: 100%; display: flex; justify-content: center; align-items: center; background-color: #000000;}
+.section-06 .myphoto {width: 280px; height: 700PX; display: flex; flex-direction: column; justify-content: space-between; align-items: center;}
+
+.section-06 .profileimg {width: 220px;}
+.section-06 .profileimg img {width: 100%;}
+
+.section-06 .profiletxt h3 {font-size: 22px; font-weight: 400; line-height: 120%; color: #fbb03b; }
+.section-06 .profiletxt h3 em {font-size: 15px; font-weight: 300; font-style: normal;}
+.section-06 .profiletxt table {font-size: 13px; text-align: left; letter-spacing: 0.5px; line-height: 180%; margin-bottom: 90px; color: #fff;}
+.section-06 .profiletxt table th {width: 92px; vertical-align: top; font-weight: 400;}
+.section-06 .profiletxt table td {font-weight: 200;}
+.section-06 .profiletxt h5 {font-size: 13px; font-weight: 300; color: #fbb03b; font-weight:bold;}
+.section-06 .profiletxt h5 em {font-weight: 600; font-style: normal;}
+.section-06 .profiletxt p {font-size: 12px; font-weight: 200; color: #999; letter-spacing: -0.5px;}
+
+
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+ 
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+
+/* ---- stats.js ---- */
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
